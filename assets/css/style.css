@@ -20,14 +20,38 @@ p {
     text-align: center;
 }
 
-#keyboard {
-    width: 65%;
-    height: 300px;
+#keyboard-container {
+    width: 50%;
+    height: 350px;
     background-color: plum;
     margin: 0 auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 5px;
+    border: 5px solid black;
+   
 }
 
-#white-key{
- float:right;
-
+.white-key {
+    width: 80px;
+    background-color:white;
+ 
 }
+
+/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
+   for black keys position */
+   .black-key {
+    width: 50px;
+    background-color:black;
+    height: 195px;
+    --width: 50px;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+}
+
+/*
+#d1, #e1, #g1, #a1, h1 {
+  margin-right: 5px;
+  position: absolute;
+}*/
