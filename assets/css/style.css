@@ -8,6 +8,7 @@
 
 body {
     background-color: pink;
+    /*background: url('../images/pexels-pixabay-220072.jpg');*/
 }
 
 h1, h2 {
@@ -23,6 +24,16 @@ h1 {
 h2 {
     font-size: 3rem;
     padding-bottom: 10px;
+}
+
+button {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 10px;
+    background-color: pink;
+    border: 5px solid purple;
+    margin-left: 40%;  
 }
 
 p {
@@ -42,19 +53,12 @@ p {
     border: 5px solid black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-   
-
-    
 }
 
 .white-key {
-    width: 110px;
+    width: 109px;
     background-color:white;
     color: black;
-  
-
- 
- 
 }
 
 /* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
@@ -63,16 +67,77 @@ p {
     width: 50px;
     background-color:black;
     height: 195px;
-    --width: 50px;
+    --width: 45px;
     margin-left: calc(var(--width) / -2);
     margin-right: calc(var(--width) / -2);
-    z-index: 1;
+    z-index: 0;
     color: white;
-   
 }
 
-/*
-#d1, #e1, #g1, #a1, h1 {
-  margin-right: 5px;
-  position: absolute;
-}*/
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+  font-size: 3rem;
+  padding: 20px;
+  color: black;
+}
+
+#created-by {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+footer {
+    display: inline;
+}
+
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1 !important; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: pink;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  #song-list, #instructions {
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+  }
+

@@ -10,14 +10,42 @@
 </head>
 <body>
     <header>
-        <h1>Funky Keyboard</h1>
-        <h2>How to play</h2> 
+        <h1><i class="fab fa-itunes-note"></i> Funky Keyboard <i class="fab fa-itunes-note"></i></h1>
+        <!-- Trigger/Open The Modal -->
+        <button id="how-to-play">How to play</button>
+
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+    
+    <ol id="instructions">
+     <li>Choose a song from the songs list.</li>
+     <li>Press the key with the letter that matches the letter on the music sheet and hold it for 
+     required amount of beats.</li>
+     <li>Enjoy in music and songs you have learned today <i class="far fa-smile-wink"></i> ! </li>
+    </ol>
+
+      <ol id="song-list">
+          <li>Mary had a little lamb</li>
+          <li>Twinkle twinkle</li>
+          <li>Happy Birthday</li>
+          <li>Old Mcdonald</li>
+          <li>Jingle Bells</li>
+          <li>If youre happy and you know it</li>
+          <li>Ode to Joy</li>
+      </ol>
+    
+    </div>
+</div>
         <h2 id="choose-song">Choose your song</h2>
     </header>
 
     <section>
         <div id="keyboard-container">
-           <div class="white-key" id="c1">C1</div>
+           <div class="white-key" ><p id="c1">C1</p></div>
            <div class="black-key" id="cis">C#</div>
            <div class="white-key" id="d1">D1</div>
            <div class="black-key" id="dis">D#</div>
@@ -34,18 +62,20 @@
     </section>
     
     <footer>
+        <p id="created-by">Created by Ivana Iles</p>
             <ul class="social-networks">
             <li>
                 <a href="https://github.com/Ivana505/funky-keyboard" target="_blank" rel="noopener"
-                aria-label="Visit my Github page (opens in a new tab)"><i class="fa-brands fa-github"></i></a>
+                aria-label="Visit my Github page (opens in a new tab)"><i class="fab fa-github"></i></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/ivana-iles/" target="_blank" rel="noopener" 
-                aria-label="Visit my LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+                aria-label="Visit my LinkedIn page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
             </li>
             </ul>
     </footer>
      <!--- font awesome script -->
     <script src="https://kit.fontawesome.com/5797e01b9b.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
