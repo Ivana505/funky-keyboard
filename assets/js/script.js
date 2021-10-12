@@ -7,6 +7,18 @@
 
 //function to play notes from array
 
+//initial click
+let whiteKeys = document.querySelectorAll(".white-key");
+
+whiteKeys.forEach((key) => {
+    key.addEventListener("click", function() {
+   // setTimeout(function(whiteKeys, 1000) => {
+   //   this.style.background = "white".click();
+    //}, );
+        this.style.background = "red";
+    });
+});
+
 
 // Get the modal
 var modal = document.getElementById("howToPlayModal");

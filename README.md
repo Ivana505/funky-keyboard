@@ -1,4 +1,4 @@
-# Funkz Kezboard
+# Funky Keyboard
 The Equestrian Centre Motion is a website for equestrian lovers located in Austria.<br>
 Users can find all the information on this Website about the equestrian centre: About the centre, working hours, contact Information and contact us form.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/)

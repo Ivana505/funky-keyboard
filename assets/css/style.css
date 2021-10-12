@@ -59,7 +59,16 @@ p {
     width: 109px;
     background-color:white;
     color: black;
+    position: relative;
 }
+
+.white-key span {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+
 
 /* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
    for black keys position */
@@ -72,6 +81,18 @@ p {
     margin-right: calc(var(--width) / -2);
     z-index: 0;
     color: white;
+    position: relative;
+}
+
+.black-key span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   }
+
+#keyboard-container #white-key {
+    border-right: 1px;
 }
 
 .social-networks {
