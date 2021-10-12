@@ -1,31 +1,27 @@
 # Funky Keyboard
-The Equestrian Centre Motion is a website for equestrian lovers located in Austria.<br>
-Users can find all the information on this Website about the equestrian centre: About the centre, working hours, contact Information and contact us form.
+Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.<br>
+Users can find all the information on this Website about the Funky Keyboard: How to play, Choose your song and contact Information of the Author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/)
 ![landing page](add.png)
 
 ## Features
-- Navigation
+- How to play ? 
     - 
     - 
     - 
     - 
 ![navigation](add.png)
 
-- The header
+- Choose your song
      - 
      -  
 ![header](readme/capture-hero-image.png)
 
-- How to play section
+- Created by with Social media links
      - 
      - 
 ![about](add.png)
 
-- Choose your song section
-    - 
-    - 
-![contact](add.png)
 
 # User Experience
 
@@ -42,10 +38,11 @@ The target audience are all the people who want to play keyboard without previou
 
 As a user I would like:
 
-- 
-- 
-- 
-- 
+- I would like to play at least 10 different songs.
+- I would like to hear the songs before I start to play.
+- I would like to see metronome so I can set a speed at which I want to play.
+- I would like to learn how to play the piano.
+- I would like to see lyrics when I press the keys.
 
 ## Design Choices
 
@@ -64,7 +61,7 @@ Icons
 
 ## Color scheme and styling
 
-I have decided  
+I have decided 
  - 
  - 
  - 
@@ -74,12 +71,12 @@ I have decided
 ## Wireframes
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
 
-Landing page with about us section
-![wireframe1](add.png)
-Instructors page
-![wireframe2](add.png)
-Gallery
-![wireframe3](add.png)
+Landing page
+![landing page](/assets/wireframes/landing-page.png)<br>
+How to Play
+![how to play](/assets/wireframes/how-to-play.png)<br>
+Choose a song
+![choose a song](/assets/wireframes/choose-a-song.png)
 
 
 ## Testings
@@ -111,11 +108,11 @@ Contact us page [Brave]()
 Result for desktop 
  - Performance for the desktop version 
 
-![desktop](readme/performance-desktop.png)<br>
+![desktop](.png)<br>
 Result for mobile devices
 - Performance for mobile devices 
 
-![mobile](readme/performance-mobile-devices.png)
+![mobile](.png)
 
 ### Bugs
 
@@ -131,11 +128,12 @@ I have also tried to follow reccommendations from [Github](https://github.com/) 
 ## Deployment
 
 The site was deployed to Github pages using following steps: 
-   - Login to Github and go into repository Ivana505/equestrian-centre-motion
+   - Login to Github and go into repository Ivana505/funky-keyboard
    - Click on settings and scroll down to Pages section on the page
    - Under the source heading select the master branch option and click save
    - The project has now been deployed and wait for approximate 10 minutes for the link to become active
    - Refresh the page and click on the link to view the live site
+  
 
 The live site can be previewed [here](https://ivana505.github.io/funky-keyboard/)
 
@@ -143,17 +141,18 @@ The live site can be previewed [here](https://ivana505.github.io/funky-keyboard/
 
 In order to make a local copy of this repository, you can type the following into your IDE Terminal:
 
-- `git clone https://github.com/Ivana505/equestrian-centre-motion.git` 
+- `git clone https://github.com/Ivana505/funky-keyboard.git` 
 
-Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://github.com/Ivana505/equestrian-centre-motion) to create a new workspace under your account.
+Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://github.com/Ivana505/funky-keyboard) to create a new workspace under your account.
   
   # Languages and stechnologies used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [Github](https://github.com/)
 - [Git](https://git-scm.com/)
 - [TinyPNG](https://tinypng.com/)
-- [FancyBox](https://fancyapps.com/docs/ui/fancybox/)
+
 
 ## Credits and Acknowledgements
 
