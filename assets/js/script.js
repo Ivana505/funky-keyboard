@@ -3,7 +3,7 @@
 
 //whiteKey.addEventListener("click" , function() { c1.style.background = "red"});
 
-//function to activate note sounds 
+
 
 //function to play notes from array
 
@@ -12,12 +12,22 @@ let whiteKeys = document.querySelectorAll(".white-key");
 
 whiteKeys.forEach((key) => {
     key.addEventListener("click", function() {
-   // setTimeout(function(whiteKeys, 1000) => {
-   //   this.style.background = "white".click();
-    //}, );
         this.style.background = "red";
+       // key.addEventListener("click" , () => activateSound(key))
+      // document.onclick = function() {
+       // audio.play();
+        setTimeout((key) => {
+         this.style.background = "white"
+    }, 500);
     });
 });
+
+//function to activate note sounds 
+
+  function activateSound(key) {
+    const soundAudio = document.getElementById(key.C1)
+    soundAudio.play()
+  }
 
 
 // Get the modal
