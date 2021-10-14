@@ -14,7 +14,6 @@ whiteKeys.forEach((key) => {
     key.addEventListener("click", function() {
         this.style.background = "red";
         activateSound(this.whiteKeys);
-        
         setTimeout((key) => {
          this.style.background = "white"
     }, 500);
