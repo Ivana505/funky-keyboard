@@ -6,20 +6,20 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/)
 
 ## Features
 - How to play ? 
+    - Includes instructions on how the piano keyboard is played.
+    - It is visible and easy to understand.
     - 
     - 
-    - 
-    - 
-![navigation](add.png)
+![how to play](add.png)
 
 - Choose your song
-     - 
-     -  
+     - User can choose a song from the list and click on the audio to hear it.
+     - Audio helps user to hear beat and tempo of the song.
 ![header](readme/capture-hero-image.png)
 
 - Created by with Social media links
-     - 
-     - 
+     - User can get in touch with the authos of this Website.
+     - User can find more Information about the author.
 ![about](add.png)
 
 
@@ -29,10 +29,11 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/)
 
 ### Visitor goals
 
-The target audience are all the people who want to play keyboard without previous knowledge:
+The target audience are kids and parents who want to play piano keyboard without previous knowledge and have fun:
 
 - 
 - 
+-
 
 ### User Goals
 
