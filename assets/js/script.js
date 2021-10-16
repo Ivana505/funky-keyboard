@@ -7,29 +7,58 @@
 
 //function to play notes from array
 
-//initial click
+
+//whiteKeys.forEach(key => {
+  //key.addEventListener("click", () => activateSound(key)) })
+
+ // let blackKeys = document.querySelectorAll(".black-key");
+//blackKeys.forEach(key => {
+  //key.addEventListener("click", () => activateSound(key)) })
+
+
+//initial click white keys
 let whiteKeys = document.querySelectorAll(".white-key");
 
 whiteKeys.forEach((key) => {
     key.addEventListener("click", function() {
         this.style.background = "red";
         activateSound(this.whiteKeys);
+       
+     // let notesBottom = (["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
+    //  let audio = document.getElementById('');
+//let dataSounds = $('').data('data-sound');
+     //   document.querySelector("audio[data-sound='"+whiteKeys +"']").play();
+    // var myVar = $(this).data("varName");
+  // let notesBottom = document.getElementById("data-sound");
+  //const link = document.getElementById(["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
+   //var key = $(this).data('key');
+   // var audio = $('audio[data-sound='+whiteKeys+']');
+   // console.log(key);
+   
         setTimeout((key) => {
          this.style.background = "white"
     }, 500);
     });
 });
 
+//initial click black keys
+/*let blackKeys = document.querySelectorAll(".black-key");
+blackKeys.forEach((key) => {
+    key.addEventListener("click", function() {
+        this.style.background = "red";
+        activateSound(this.blackKeys);
+        setTimeout((key) => {
+         this.style.background = "black"
+    }, 500);
+    });
+});*/
+
 //function to activate note sounds 
-
   function activateSound(key) {
-    const soundAudio = document.getElementById("C1");
+    const soundAudio = document.getElementById("C1")
+   // var audio = $('audio[data-sound='+whiteKeys+']');
     soundAudio.play()
-    console.log(soundAudio);
   }
-
-
-
 
 
 // Get the modal
