@@ -34,6 +34,7 @@ whiteKeys.forEach((key) => {
    //var key = $(this).data('key');
    // var audio = $('audio[data-sound='+whiteKeys+']');
    // console.log(key);
+   //const key = document.querySelector('audio[data-sound=${e.keyCode}]');
    
         setTimeout((key) => {
          this.style.background = "white"
@@ -55,7 +56,7 @@ blackKeys.forEach((key) => {
 
 //function to activate note sounds 
   function activateSound(key) {
-    const soundAudio = document.getElementById("C1")
+    const soundAudio = document.getElementById(key.dataset.sound)
    // var audio = $('audio[data-sound='+whiteKeys+']');
     soundAudio.play()
   }
