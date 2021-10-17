@@ -26,15 +26,48 @@ h2 {
     padding-bottom: 10px;
 }
 
-button {
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    font-size: 5rem;
-    padding-bottom: 10px;
-    background-color: pink;
-    border: 5px solid purple;
-    margin-left: 40%;  
-}
+    
+    /* CSS button */
+    button {
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        font-size: 3rem;
+        margin: 1% 0 2% 31.6%;
+        width: 700px;
+
+
+      appearance: none;
+      background-color: #FFFFFF;
+      border-radius: 40em;
+      border-style: none;
+      box-shadow: black 0 -12px 6px inset;
+      box-sizing: border-box;
+      color: #000000;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 700;
+      letter-spacing: -.24px;
+      outline: none;
+      padding: 1rem 1.3rem;
+      quotes: auto;
+      text-align: center;
+      text-decoration: none;
+      transition: all .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    button:hover {
+      background-color:white;
+      box-shadow: black 0 -6px 8px inset;
+      transform: scale(1.125);
+    }
+    
+    button:active {
+      transform: scale(1.025);
+    }
+    
 
 p {
     font-family: 'Lato', sans-serif;
@@ -55,7 +88,7 @@ p {
 }
 
 .white-key {
-    width: 132.9px;
+    width: 131.5px;
     background-color:white;
     color: black;
     position: relative;
