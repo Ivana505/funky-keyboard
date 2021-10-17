@@ -44,7 +44,7 @@ blackKeys.forEach((key) => {
 //function to activate note sounds 
   function activateSound(key) {
     const soundAudio = document.getElementById(key.dataset.sound)
-   // var audio = $('audio[data-sound='+whiteKeys+']');
+   //soundAudio.currentTime = 0;
     soundAudio.play()
   }
 
@@ -74,29 +74,29 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 } 
-/*
-// Get the modal
-var modal = document.getElementById("choose");
+
+// Get the modal 2
+var modal2 = document.getElementById("choose");
 
 // Get the button that opens the modal
-var btn = document.getElementById("choose-your-song");
+var btn = document.getElementById("pick");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("your-song")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
-  modal.style.display = "block";
+  modal2.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+  modal2.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal2.style.display = "none";
   }
-} */
+} 
