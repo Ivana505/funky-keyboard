@@ -75,7 +75,7 @@ p {
 }
 
 #keyboard-container {
-	width: 50%;
+	max-width: 50%;
 	height: 360px;
 	background-color: black;
 	margin: 0 auto;
@@ -85,6 +85,8 @@ p {
 	border: 5px solid black;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+
+
 }
 
 .white-key {
