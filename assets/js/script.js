@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //initial click
 //var whiteKey = document.getElementsByClassName("whiteKey");
 
@@ -9,44 +10,44 @@
 
 
 //whiteKeys.forEach(key => {
-  //key.addEventListener("click", () => activateSound(key)) })
+//key.addEventListener("click", () => activateSound(key)) })
 
- // let blackKeys = document.querySelectorAll(".black-key");
+// let blackKeys = document.querySelectorAll(".black-key");
 //blackKeys.forEach(key => {
-  //key.addEventListener("click", () => activateSound(key)) })
+//key.addEventListener("click", () => activateSound(key)) })
 
 
 //initial click white keys
 let whiteKeys = document.querySelectorAll(".white-key");
 
 whiteKeys.forEach((key) => {
-    key.addEventListener("click", function() {
-        this.style.background = "red";
-        activateSound(this) 
-        setTimeout((key) => {
-         this.style.background = "white"
-    }, 500);
-    });
+	key.addEventListener("click", function() {
+		this.style.background = "red";
+		activateSound(this);
+		setTimeout((key) => {
+			this.style.background = "white";
+		}, 500);
+	});
 });
 
 //initial click black keys
 let blackKeys = document.querySelectorAll(".black-key");
 blackKeys.forEach((key) => {
-    key.addEventListener("click", function() {
-        this.style.background = "red";
-        activateSound(this) 
-        setTimeout((key) => {
-         this.style.background = "black"
-    }, 500);
-    });
+	key.addEventListener("click", function() {
+		this.style.background = "red";
+		activateSound(this);
+		setTimeout((key) => {
+			this.style.background = "black";
+		}, 500);
+	});
 });
 
 //function to activate note sounds 
-  function activateSound(key) {
-    const soundAudio = document.getElementById(key.dataset.sound)
-   //soundAudio.currentTime = 0;
-    soundAudio.play()
-  }
+function activateSound(key) {
+	const soundAudio = document.getElementById(key.dataset.sound);
+	//soundAudio.currentTime = 0;
+	soundAudio.play();
+}
 
 
 // Get the modal
@@ -60,20 +61,20 @@ var span = document.getElementsByClassName("how-to")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
-  modal.style.display = "block";
-}
+	modal.style.display = "block";
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
-}
+	modal.style.display = "none";
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-} 
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+};
 
 // Get the modal 2
 var modal2 = document.getElementById("choose");
@@ -86,17 +87,17 @@ var span = document.getElementsByClassName("your-song")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
-  modal2.style.display = "block";
-}
+	modal2.style.display = "block";
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal2.style.display = "none";
-}
+	modal2.style.display = "none";
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal2.style.display = "none";
-  }
-} 
+	if (event.target == modal) {
+		modal2.style.display = "none";
+	}
+};

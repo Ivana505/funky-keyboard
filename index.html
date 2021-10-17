@@ -1,110 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funky Keyboard</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <h1><i class="fab fa-itunes-note"></i> Funky Keyboard <i class="fab fa-itunes-note"></i></h1>
-
-        <!-- Button to open Modal box -->
-        <button id="how-to-play">How to play ?</button>
-
-        <!-- The Modal -->
-<div id="howToPlayModal" class="modal1">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="how-to">Click here to close.</span>
-       <p class="title">How to Play ?</p>
-    <ol id="instructions">
-     <li>Choose a song from the song list you wish to play.</li>
-     <li> Listen to the preview of the song.</li>
-     <li> Click PLAY and your game will start! Press the key which lights up.</li>
-     <li>Enjoy in music and songs you have learned to play today. <i class="far fa-smile-wink"></i> ! </li>
-    </ol>
-    
-    </div>
-</div>
-       
-        
-               <!--<button id="choose-your-song">Choose your song</button>-->
-               <button id="pick">Choose your song</button>
-       
-
-               <!-- The Modal -->
-       <div id="choose" class="modal2">
-       
-           <!-- Modal content -->
-           <div class="modal-content2">
-             <span class="your-song">Click here to close.</span>
-             <p class="title">Choose a song</p>
-       
-             <ol id="song-list">
-                 <li>Mary had a little lamb<br><audio controls muted><source src="assets/audio/mary-had-a-little-lamb.mp3" type="audio/mp3"></audio></li>
-                 <li>Twinkle twinkle<br><audio controls muted><source src="assets/audio/twinkle-twinkle.mp3" type="audio/mp3"></audio></li>
-                 <li>Jingle Bells<br><audio controls muted><source src="assets/audio/jingle-bells.mp3" type="audio/mp3"></audio></li>
-             </ol>
-           
-           </div>
-       </div>
-      
-
-    </header>
-
-         <audio id="C1" src="assets/audio/c1.mp3" volume= "60" preload="none"></audio>
-         <audio id="CIS" src="assets/audio/cis.mp3" volume= "60" preload="none"></audio>
-         <audio id="D1" src="assets/audio/d1.mp3" volume= "60" preload="none"></audio>
-         <audio id="DIS" src="assets/audio/dis.mp3" volume= "60" preload="none"></audio>
-         <audio id="E1" src="assets/audio/e1.mp3" volume= "60" preload="none"></audio>
-         <audio id="F1" src="assets/audio/f1.mp3" volume= "60" preload="none"></audio>
-         <audio id="FIS" src="assets/audio/fis.mp3" volume= "60" preload="none"></audio>
-         <audio id="G1" src="assets/audio/g1.mp3" volume= "60" preload="none"></audio>
-         <audio id="GIS" src="assets/audio/gis.mp3" volume= "60" preload="none"></audio>
-         <audio id="A1" src="assets/audio/a1.mp3" volume= "60" preload="none"></audio>
-         <audio id="AIS" src="assets/audio/ais.mp3" volume= "60" preload="none"></audio>
-         <audio id="H1" src="assets/audio/h1.mp3" volume= "60" preload="none"></audio>
-         
-
-
-    <section>
-        <div id="keyboard-container">
-           <div class="white-key" data-sound="C1" id="c1"><span>C1</span></div>
-           <div class="black-key" data-sound="CIS" id="cis"><span>C&#35;&#9837;</span></div>
-           <div class="white-key" data-sound="D1" id="d1"><span>D1</span></div>
-           <div class="black-key" data-sound="DIS" id="dis"><span>D&#35;&#9837;</span></div>
-           <div class="white-key" data-sound="E1" id="e1"><span>E1</span></div>
-           <div class="white-key" data-sound="F1" id="f1"><span>F1</span></div>
-           <div class="black-key" data-sound="FIS" id="fis"><span>F&#35;&#9837;</span></div>
-           <div class="white-key" data-sound="G1" id="g1"><span>G1</span></div>
-           <div class="black-key" data-sound="GIS" id="gis"><span>G&#35;&#9837;</span></div>
-           <div class="white-key" data-sound="A1" id="a1"><span>A1</span></div>
-           <div class="black-key" data-sound="AIS" id="ais"><span>A&#35;&#9837;</span></div>
-           <div class="white-key" data-sound="H1" id="h1"><span>H1</span></div>
-          <!-- <div class="white-key" data-sound="C2" id="c2"><span>C2</span></div>-->
-        </div>
-    </section>
-    
-    <footer>
-        <p id="created-by">Created by Ivana Iles</p>
-            <ul class="social-networks">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Funky Keyboard</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <header>
+         <h1><i class="fab fa-itunes-note"></i> Funky Keyboard <i class="fab fa-itunes-note"></i></h1>
+         <!-- Button to open Modal box -->
+         <button id="how-to-play">How to play ?</button>
+         <!-- The Modal -->
+         <div id="howToPlayModal" class="modal1">
+            <!-- Modal content -->
+            <div class="modal-content">
+               <span class="how-to">Click here to close.</span>
+               <p class="title">How to Play ?</p>
+               <ol id="instructions">
+                  <li>Choose a song from the song list you wish to play.</li>
+                  <li> Listen to the preview of the song.</li>
+                  <li> Click PLAY and your game will start! Press the key which lights up.</li>
+                  <li>Enjoy in music and songs you have learned to play today. <i class="far fa-smile-wink"></i> ! </li>
+               </ol>
+            </div>
+         </div>
+         <!--<button id="choose-your-song">Choose your song</button>-->
+         <button id="pick">Choose your song</button>
+         <!-- The Modal -->
+         <div id="choose" class="modal2">
+            <!-- Modal content -->
+            <div class="modal-content2">
+               <span class="your-song">Click here to close.</span>
+               <p class="title">Choose a song</p>
+               <ol id="song-list">
+                  <li>
+                     Mary had a little lamb<br>
+                     <audio controls muted>
+                        <source src="assets/audio/mary-had-a-little-lamb.mp3" type="audio/mp3">
+                     </audio>
+                  </li>
+                  <li>
+                     Twinkle twinkle<br>
+                     <audio controls muted>
+                        <source src="assets/audio/twinkle-twinkle.mp3" type="audio/mp3">
+                     </audio>
+                  </li>
+                  <li>
+                     Jingle Bells<br>
+                     <audio controls muted>
+                        <source src="assets/audio/jingle-bells.mp3" type="audio/mp3">
+                     </audio>
+                  </li>
+               </ol>
+            </div>
+         </div>
+      </header>
+      <audio id="C1" src="assets/audio/c1.mp3" preload="none"></audio>
+      <audio id="CIS" src="assets/audio/cis.mp3" preload="none"></audio>
+      <audio id="D1" src="assets/audio/d1.mp3" preload="none"></audio>
+      <audio id="DIS" src="assets/audio/dis.mp3" preload="none"></audio>
+      <audio id="E1" src="assets/audio/e1.mp3" preload="none"></audio>
+      <audio id="F1" src="assets/audio/f1.mp3" preload="none"></audio>
+      <audio id="FIS" src="assets/audio/fis.mp3"  preload="none"></audio>
+      <audio id="G1" src="assets/audio/g1.mp3"  preload="none"></audio>
+      <audio id="GIS" src="assets/audio/gis.mp3"  preload="none"></audio>
+      <audio id="A1" src="assets/audio/a1.mp3" preload="none"></audio>
+      <audio id="AIS" src="assets/audio/ais.mp3"  preload="none"></audio>
+      <audio id="H1" src="assets/audio/h1.mp3" preload="none"></audio>
+      <section>
+         <div id="keyboard-container">
+            <div class="white-key" data-sound="C1" id="c1"><span>C1</span></div>
+            <div class="black-key" data-sound="CIS" id="cis"><span>C&#35;&#9837;</span></div>
+            <div class="white-key" data-sound="D1" id="d1"><span>D1</span></div>
+            <div class="black-key" data-sound="DIS" id="dis"><span>D&#35;&#9837;</span></div>
+            <div class="white-key" data-sound="E1" id="e1"><span>E1</span></div>
+            <div class="white-key" data-sound="F1" id="f1"><span>F1</span></div>
+            <div class="black-key" data-sound="FIS" id="fis"><span>F&#35;&#9837;</span></div>
+            <div class="white-key" data-sound="G1" id="g1"><span>G1</span></div>
+            <div class="black-key" data-sound="GIS" id="gis"><span>G&#35;&#9837;</span></div>
+            <div class="white-key" data-sound="A1" id="a1"><span>A1</span></div>
+            <div class="black-key" data-sound="AIS" id="ais"><span>A&#35;&#9837;</span></div>
+            <div class="white-key" data-sound="H1" id="h1"><span>H1</span></div>
+            <!-- <div class="white-key" data-sound="C2" id="c2"><span>C2</span></div>-->
+         </div>
+      </section>
+      <footer>
+         <p id="created-by">Created by Ivana Iles</p>
+         <ul class="social-networks">
             <li>
-                <a href="https://github.com/Ivana505/funky-keyboard" target="_blank" rel="noopener"
-                aria-label="Visit my Github page (opens in a new tab)"><i class="fab fa-github"></i></a>
+               <a href="https://github.com/Ivana505/funky-keyboard" target="_blank" rel="noopener"
+                  aria-label="Visit my Github page (opens in a new tab)"><i class="fab fa-github"></i></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/ivana-iles/" target="_blank" rel="noopener" 
-                aria-label="Visit my LinkedIn page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+               <a href="https://www.linkedin.com/in/ivana-iles/" target="_blank" rel="noopener" 
+                  aria-label="Visit my LinkedIn page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
             </li>
-            </ul>
-    </footer>
-     <!--- font awesome script -->
-    <script src="https://kit.fontawesome.com/5797e01b9b.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-</body>
+         </ul>
+      </footer>
+      <!--- font awesome script -->
+      <script src="https://kit.fontawesome.com/5797e01b9b.js" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
