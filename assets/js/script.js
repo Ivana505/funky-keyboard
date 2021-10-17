@@ -23,18 +23,6 @@ whiteKeys.forEach((key) => {
     key.addEventListener("click", function() {
         this.style.background = "red";
         activateSound(this) 
-       
-     // let notesBottom = (["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
-    //  let audio = document.getElementById('');
-//let dataSounds = $('').data('data-sound');
-     //   document.querySelector("audio[data-sound='"+whiteKeys +"']").play();
-  // let notesBottom = document.getElementById("data-sound");
-  //const link = document.getElementById(["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
-   //var key = $(this).data('key');
-   // var audio = $('audio[data-sound='+whiteKeys+']');
-   // console.log(key);
-   //const key = document.querySelector('audio[data-sound=${e.keyCode}]');
-   
         setTimeout((key) => {
          this.style.background = "white"
     }, 500);
@@ -42,16 +30,16 @@ whiteKeys.forEach((key) => {
 });
 
 //initial click black keys
-/*let blackKeys = document.querySelectorAll(".black-key");
+let blackKeys = document.querySelectorAll(".black-key");
 blackKeys.forEach((key) => {
     key.addEventListener("click", function() {
         this.style.background = "red";
-        activateSound(this.blackKeys);
+        activateSound(this) 
         setTimeout((key) => {
          this.style.background = "black"
     }, 500);
     });
-});*/
+});
 
 //function to activate note sounds 
   function activateSound(key) {
