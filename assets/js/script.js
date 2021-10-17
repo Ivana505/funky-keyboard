@@ -1,21 +1,4 @@
 /*jshint esversion: 6 */
-//initial click
-//var whiteKey = document.getElementsByClassName("whiteKey");
-
-//whiteKey.addEventListener("click" , function() { c1.style.background = "red"});
-
-
-
-//function to play notes from array
-
-
-//whiteKeys.forEach(key => {
-//key.addEventListener("click", () => activateSound(key)) })
-
-// let blackKeys = document.querySelectorAll(".black-key");
-//blackKeys.forEach(key => {
-//key.addEventListener("click", () => activateSound(key)) })
-
 
 //initial click white keys
 let whiteKeys = document.querySelectorAll(".white-key");
@@ -48,6 +31,14 @@ function activateSound(key) {
 	//soundAudio.currentTime = 0;
 	soundAudio.play();
 }
+/*
+const maryHadLamb = ["E","D","C","D","E","E","E","D","D","D","E","E","E","E","D","C","D","E","E","E","D","D","E","D","C"];MARY
+const twinkleTwinkle = ["C","C","G","G","A","A","G","F","F","E","E","D","D","C","G","G","F","F","E","E","D","G","G","F","F","E",
+"E","D","C","C","G","G","A","A","G","F","F","E","E","D","D","C"]; TWINKLE
+const jingleBells = ["E","E","E","E","E","E","E","G","C","D","E","F","F","F",
+"F", "E","E","E","D","D","E","D","G","E","E","E","E","E","E","E","G","C","D","E","F","F","F","F","E","E","G","G","F","D","C"];JINGLE
+
+*/
 
 
 // Get the modal
