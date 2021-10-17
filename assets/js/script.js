@@ -22,13 +22,12 @@ let whiteKeys = document.querySelectorAll(".white-key");
 whiteKeys.forEach((key) => {
     key.addEventListener("click", function() {
         this.style.background = "red";
-        activateSound(this.whiteKeys);
+        activateSound(this) 
        
      // let notesBottom = (["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
     //  let audio = document.getElementById('');
 //let dataSounds = $('').data('data-sound');
      //   document.querySelector("audio[data-sound='"+whiteKeys +"']").play();
-    // var myVar = $(this).data("varName");
   // let notesBottom = document.getElementById("data-sound");
   //const link = document.getElementById(["C1", "D1", "E1", "F1", "G1", "A1", "H1"]);
    //var key = $(this).data('key');
