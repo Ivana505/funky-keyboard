@@ -2,25 +2,25 @@
 Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.<br>
 Users can find all the information on this Website about the Funky Keyboard: How to play, Choose your song and contact Information of the Author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/)
-![landing page](add.png)
+![landing page](/assets/images/landing-page.png)
+
 
 ## Features
 - How to play ? 
-    - Includes instructions on how the piano keyboard is played.
-    - It is visible and easy to understand.
-    - 
-    - 
-![how to play](add.png)
+    - Includes instructions on how to play the keyboard.
+    - Text is visible and easy to understand.
+![how to play](/assets/images/how-to-play.png)
 
 - Choose your song
-     - User can choose a song from the list and click on the audio to hear it.
-     - Audio helps user to hear beat and tempo of the song.
-![header](readme/capture-hero-image.png)
+     - User can choose a song from the list and click on the audio to hear it first.
+     - Audio helps user to hear the beat and tempo of the song.
+     - After the user clicks on "PLAY", the game starts and the first key of the song lights up on the keyboard which user needs to press. After the first key is pressed, another key will light up and user needs to press it next all up until the whole song is played.
+![choose your song](/assets/images/choose-a-song.png)
 
 - Created by with Social media links
      - User can get in touch with the authos of this Website.
      - User can find more Information about the author.
-![about](add.png)
+![social media](/assets/images/social-media.png)
 
 
 # User Experience
@@ -31,29 +31,31 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/)
 
 The target audience are kids and parents who want to play piano keyboard without previous knowledge and have fun:
 
-- 
-- 
--
+- To understand how the keyboards is played and to navigate through the site easily.
+- To learn how to play easy songs on the piano keyboard in a day.
+- To hear the songs first before starting to play.
 
 ### User Goals
 
 As a user I would like:
 
 - I would like to play at least 10 different songs.
-- I would like to hear the songs before I start to play.
-- I would like to see metronome so I can set a speed at which I want to play.
+- I would like to hear songs before I start to play.
+- I would like to see metronome so I can set a speed and follow the beat while I play.
 - I would like to learn how to play the piano.
-- I would like to see lyrics when I press the keys.
+- I would like to see lyrics of the songs.
+- I would like to be able to record songs I played.
 
 ## Design Choices
 
 Font choices
 
 I have decided to use [Google Fonts](https://fonts.google.com/). 
- - Two font styles: 
- - These two font styles complement each other really well.
+ - Two font styles: Indie Flower for main headings and buttons and Lato for paragraphs.
+ - These two font styles complement each other really well. Indie Flower is a handwriting font while Lato is part of a sans serif typeface family.
  - I have included example of the style below: <br>
-    ![fonts](add.png)
+    ![indie flower font family](/assets/images/indie-flower-font-family.png)
+    ![lato font family](/assets/images/lato-font-family.png)
 
 Icons
 
