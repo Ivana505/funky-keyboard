@@ -31,14 +31,26 @@ function activateSound(key) {
 	//soundAudio.currentTime = 0;
 	soundAudio.play();
 }
-/*
-const maryHadLamb = ["E","D","C","D","E","E","E","D","D","D","E","E","E","E","D","C","D","E","E","E","D","D","E","D","C"];MARY
-const twinkleTwinkle = ["C","C","G","G","A","A","G","F","F","E","E","D","D","C","G","G","F","F","E","E","D","G","G","F","F","E",
-"E","D","C","C","G","G","A","A","G","F","F","E","E","D","D","C"]; TWINKLE
-const jingleBells = ["E","E","E","E","E","E","E","G","C","D","E","F","F","F",
-"F", "E","E","E","D","D","E","D","G","E","E","E","E","E","E","E","G","C","D","E","F","F","F","F","E","E","G","G","F","D","C"];JINGLE
 
-*/
+const maryHadLamb = ["E","D","C","D","E","E","E","D","D","D","E","E","E","E","D","C","D","E","E","E","D","D","E","D","C"];
+for (let i = 0; i < maryHadLamb.length; i++) {
+    console.log(maryHadLamb[i]);
+}
+
+
+/*
+const twinkleTwinkle = ["C","C","G","G","A","A","G","F","F","E","E","D","D","C","G","G","F","F","E","E","D","G","G","F","F","E",
+"E","D","C","C","G","G","A","A","G","F","F","E","E","D","D","C"];
+for (let i = 0; i < twinkleTwinkle.length; i++) {
+    console.log(twinkleTwinkle[i]);
+}
+
+const jingleBells = ["E","E","E","E","E","E","E","G","C","D","E","F","F","F",
+"F", "E","E","E","D","D","E","D","G","E","E","E","E","E","E","E","G","C","D","E","F","F","F","F","E","E","G","G","F","D","C"];
+for (let i = 0; i < jingleBells.length; i++) {
+    console.log(jingleBells[i]);
+}*/
+
 
 
 // Get the modal
