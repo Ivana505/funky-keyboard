@@ -35,8 +35,8 @@ button {
 	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	font-size: 3rem;
-	margin: 1% 0 2% 31.6%;
 	width: 700px;
+
 	appearance: none;
 	background-color: #FFFFFF;
 	border-radius: 40em;
@@ -59,6 +59,13 @@ button {
 	touch-action: manipulation;
 }
 
+ul {
+				margin: 1% 0 2% 0;
+                padding-bottom: 0;
+                text-align: center;
+                list-style:none; 
+				  
+}
 button:hover {
 	background-color: white;
 	box-shadow: black 0 -6px 8px inset;
@@ -91,7 +98,7 @@ p {
 
 
 .white-key {
-	width: 131.5px;
+	width: 130px;
 	background-color: white;
 	color: black;
 	position: relative;
