@@ -360,7 +360,7 @@ footer {
 	
 	
 	.white-key {
-		width: 130px;
+		width: 12vw;
 		background-color: white;
 		color: black;
 		position: relative;
@@ -383,7 +383,7 @@ footer {
 	   for black keys position */
 	
 	.black-key {
-		width: 50px;
+		width: 7vw;
 		background-color: black;
 		height: 195px;
 		--width: 45px;
@@ -400,6 +400,37 @@ footer {
 		left: 0;
 		right: 0;
   }
+
+
+  button {
+	
+	font-size: 2rem;
+	width: 500px;
+
+
+  }
+
+
+h1 {
+	font-size: 3rem;
+
+}
+
+h2 {
+	font-size: 1.5rem;
+
+}
+
+.social-networks i {
+	font-size: 1.5rem;
+}
+
+#song-list li,
+#instructions li {
+	font-size: 1rem;
+}
+
+
   }
  /* @media screen and (max-width:950px) {
   }
