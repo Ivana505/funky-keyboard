@@ -29,8 +29,18 @@ blackKeys.forEach((key) => {
 function activateSound(key) {
 	const soundAudio = document.getElementById(key.dataset.sound);
 	//soundAudio.currentTime = 0;
+	stopSound();
 	soundAudio.play();
 }
+
+function stopSound() {
+  const audioFiles = document.getElementsByTagName("audio");
+  audioFiles.forEach((audio) => {
+	  audio.pause();
+  });
+}
+
+
 /*
 const maryHadLamb = ["E","D","C","D","E","E","E","D","D","D","E","E","E","E","D","C","D","E","E","E","D","D","E","D","C"];
 for (let i = 0; i < maryHadLamb.length; i++) {
