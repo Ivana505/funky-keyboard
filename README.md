@@ -18,8 +18,9 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 ![choose your song](assets/images/choose-a-song.png)
 
 - Created by with Social media links
-     - User can get in touch with the authos of this Website.
+     - User can get in touch with the author of this Website.
      - User can find more Information about the author.
+
 ![social media](assets/images/social-media.png)
 
 
