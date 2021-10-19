@@ -1,441 +1,774 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato&display=swap');
+
 * {
-	margin: 0;
-	padding: 0;
-	border: none;
+
+margin: 0;
+
+padding: 0;
+
+border: none;
+
 }
+
 
 body {
-	background-color: pink;
+
+background-color: pink;
+
 }
+
+
 
 h1,
+
 h2 {
-	font-family: 'Indie Flower', cursive;
-	text-align: center;
+
+font-family: 'Indie Flower', cursive;
+
+text-align: center;
+
 }
+
+
 
 h1 {
-	font-size: 5rem;
-	padding-bottom: 10px;
+
+font-size: 5rem;
+
+padding-bottom: 10px;
+
 }
 
+
+
 h2 {
-	font-size: 3rem;
-	padding-bottom: 10px;
+
+font-size: 3rem;
+
+padding-bottom: 10px;
+
 }
+
+
+
 
 
 /* CSS button */
 
-button {
-	font-family: 'Indie Flower', cursive;
-	text-align: center;
-	font-size: 3rem;
-	width: 700px;
 
-	appearance: none;
-	background-color: #FFFFFF;
-	border-radius: 40em;
-	border-style: none;
-	box-shadow: black 0 -12px 6px inset;
-	box-sizing: border-box;
-	color: #000000;
-	cursor: pointer;
-	display: inline-block;
-	font-weight: 700;
-	letter-spacing: -.24px;
-	outline: none;
-	padding: 1rem 1.3rem;
-	quotes: auto;
-	text-align: center;
-	text-decoration: none;
-	transition: all .15s;
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
+
+button {
+
+font-family: 'Indie Flower', cursive;
+
+text-align: center;
+
+font-size: 3rem;
+
+width: 700px;
+
+
+
+appearance: none;
+
+background-color: #FFFFFF;
+
+border-radius: 40em;
+
+border-style: none;
+
+box-shadow: black 0 -12px 6px inset;
+
+box-sizing: border-box;
+
+color: #000000;
+
+cursor: pointer;
+
+display: inline-block;
+
+font-weight: 700;
+
+letter-spacing: -.24px;
+
+outline: none;
+
+padding: 1rem 1.3rem;
+
+quotes: auto;
+
+text-align: center;
+
+text-decoration: none;
+
+transition: all .15s;
+
+user-select: none;
+
+-webkit-user-select: none;
+
+touch-action: manipulation;
+
 }
+
+
 
 ul {
-				margin: 1% 0 2% 0;
-                padding-bottom: 0;
-                text-align: center;
-                list-style:none; 
-				  
+
+margin: 1% 0 2% 0;
+
+padding-bottom: 0;
+
+text-align: center;
+
+list-style:none; 
+
+
+
 }
+
 button:hover {
-	background-color: white;
-	box-shadow: black 0 -6px 8px inset;
-	transform: scale(1.125);
+
+background-color: white;
+
+box-shadow: black 0 -6px 8px inset;
+
+transform: scale(1.125);
+
 }
+
+
 
 button:active {
-	transform: scale(1.025);
+
+transform: scale(1.025);
+
 }
+
+
 
 p {
-	font-family: 'Lato', sans-serif;
-	text-align: center;
+
+font-family: 'Lato', sans-serif;
+
+text-align: center;
+
 }
+
+
 
 #keyboard-container {
-	max-width: 50%;
-	height: 360px;
-	background-color: black;
-	margin: 0 auto;
-	display: grid;
-	text-align: center;
-	grid-template-columns: repeat(12, 1fr);
-	border: 5px solid black;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	box-sizing: border-box;
+
+max-width: 50%;
+
+height: 360px;
+
+background-color: black;
+
+margin: 0 auto;
+
+display: grid;
+
+text-align: center;
+
+grid-template-columns: repeat(12, 1fr);
+
+border: 5px solid black;
+
+border-bottom-left-radius: 10px;
+
+border-bottom-right-radius: 10px;
+
+box-sizing: border-box;
+
+
 
 }
+
+
+
 
 
 .white-key {
-	width: 130px;
-	background-color: white;
-	color: black;
-	position: relative;
+
+width: 130px;
+
+background-color: white;
+
+color: black;
+
+position: relative;
+
 }
+
+
 
 #e1,
+
 #h1 {
-	border-right: 5px solid black;
+
+border-right: 5px solid black;
+
 }
 
+
+
 .white-key span {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+
+right: 0;
+
 }
+
+
+
 
 
 /* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
-   for black keys position */
+
+for black keys position */
+
+
 
 .black-key {
-	width: 50px;
-	background-color: black;
-	height: 195px;
-	--width: 45px;
-	margin-left: calc(var(--width) / -2);
-	margin-right: calc(var(--width) / -2);
-	z-index: 10;
-	color: white;
-	position: relative;
+
+width: 50px;
+
+background-color: black;
+
+height: 195px;
+
+--width: 45px;
+
+margin-left: calc(var(--width) / -2);
+
+margin-right: calc(var(--width) / -2);
+
+z-index: 10;
+
+color: white;
+
+position: relative;
+
 }
+
+
 
 .black-key span {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+
+right: 0;
+
 }
+
+
 
 .social-networks {
-	text-align: center;
-	list-style-type: none;
+
+text-align: center;
+
+list-style-type: none;
+
 }
+
+
 
 .social-networks>li {
-	display: inline;
+
+display: inline;
+
 }
+
+
 
 .social-networks i {
-	font-size: 3rem;
-	padding: 20px;
-	color: black;
+
+font-size: 3rem;
+
+padding: 20px;
+
+color: black;
+
 }
+
+
 
 #created-by {
-	font-weight: bold;
-	padding-top: 30px;
+
+font-weight: bold;
+
+padding-top: 30px;
+
 }
 
+
+
 footer {
-	display: inline;
+
+display: inline;
+
 }
+
+
+
 
 
 /* The Modal (background) */
 
+
+
 .modal1 {
-	display: none;
-	/* Hidden by default */
-	position: fixed;
-	/* Stay in place */
-	z-index: 11 !important;
-	/* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%;
-	/* Full width */
-	height: 100%;
-	/* Full height */
-	overflow: auto;
-	/* Enable scroll if needed */
-	background-color: rgb(0, 0, 0);
-	/* Fallback color */
-	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
+
+display: none;
+
+/* Hidden by default */
+
+position: fixed;
+
+/* Stay in place */
+
+z-index: 11 !important;
+
+/* Sit on top */
+
+left: 0;
+
+top: 0;
+
+width: 100%;
+
+/* Full width */
+
+height: 100%;
+
+/* Full height */
+
+overflow: auto;
+
+/* Enable scroll if needed */
+
+background-color: rgb(0, 0, 0);
+
+/* Fallback color */
+
+background-color: rgba(0, 0, 0, 0.4);
+
+/* Black w/ opacity */
+
 }
+
+
+
 
 
 /* Modal Content/Box */
 
+
+
 .modal-content {
-	background-color: pink;
-	margin: 15% auto;
-	/* 15% from the top and centered */
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
-	/* Could be more or less, depending on screen size */
+
+background-color: pink;
+
+margin: 15% auto;
+
+/* 15% from the top and centered */
+
+padding: 20px;
+
+border: 1px solid #888;
+
+width: 80%;
+
+/* Could be more or less, depending on screen size */
+
 }
+
+
+
 
 
 /* The Close Button */
 
+
+
 .close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
+
+color: #aaa;
+
+float: right;
+
+font-size: 28px;
+
+font-weight: bold;
+
 }
+
+
 
 .close:hover,
+
 .close:focus {
-	color: black;
-	text-decoration: none;
-	cursor: pointer;
+
+color: black;
+
+text-decoration: none;
+
+cursor: pointer;
+
 }
+
+
 
 #song-list li,
+
 #instructions li {
-	font-family: 'Lato', sans-serif;
-	padding: 10px;
-	font-weight: 700;
-	text-align: center;
-	font-size: 1.5rem;
+
+font-family: 'Lato', sans-serif;
+
+padding: 10px;
+
+font-weight: 700;
+
+text-align: center;
+
+font-size: 1.5rem;
+
 }
+
+
 
 .title {
-	font-family: 'Lato', sans-serif;
-	padding: 10px;
-	font-weight: 700;
-	text-align: center;
-	font-size: 1.5rem;
-}
 
+font-family: 'Lato', sans-serif;
 
-/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
-   for black keys position */
+padding: 10px;
 
-.black-key {
-	width: 50px;
-	background-color: black;
-	height: 195px;
-	--width: 45px;
-	margin-left: calc(var(--width) / -2);
-	margin-right: calc(var(--width) / -2);
-	z-index: 10;
-	color: white;
-	position: relative;
-}
+font-weight: 700;
 
-.black-key span {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
+text-align: center;
 
-.social-networks {
-	text-align: center;
-	list-style-type: none;
-}
+font-size: 1.5rem;
 
-.social-networks>li {
-	display: inline;
-}
-
-.social-networks i {
-	font-size: 3rem;
-	padding: 20px;
-	color: black;
-}
-
-#created-by {
-	font-weight: bold;
-	padding-top: 30px;
-}
-
-footer {
-	display: inline;
 }
 
 
 /* The Modal 2 (background) */
 
+
 .modal2 {
-	display: none;
-	/* Hidden by default */
-	position: fixed;
-	/* Stay in place */
-	z-index: 11 !important;
-	/* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%;
-	/* Full width */
-	height: 100%;
-	/* Full height */
-	overflow: auto;
-	/* Enable scroll if needed */
-	background-color: rgb(0, 0, 0);
-	/* Fallback color */
-	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
+
+display: none;
+
+/* Hidden by default */
+
+position: fixed;
+
+/* Stay in place */
+
+z-index: 11 !important;
+
+/* Sit on top */
+
+left: 0;
+
+top: 0;
+
+width: 100%;
+
+/* Full width */
+
+height: 100%;
+
+/* Full height */
+
+overflow: auto;
+
+/* Enable scroll if needed */
+
+background-color: rgb(0, 0, 0);
+
+/* Fallback color */
+
+background-color: rgba(0, 0, 0, 0.4);
+
+/* Black w/ opacity */
+
 }
 
 
 /* Modal Content/Box */
 
+
 .modal-content2 {
-	background-color: pink;
-	margin: 15% auto;
-	/* 15% from the top and centered */
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
-	/* Could be more or less, depending on screen size */
+
+background-color: pink;
+
+margin: 15% auto;
+
+/* 15% from the top and centered */
+
+padding: 20px;
+
+border: 1px solid #888;
+
+width: 80%;
+
+/* Could be more or less, depending on screen size */
+
 }
+
 /*
+
 /* media queries */
+
 /* Landscape */
+
 /*@media screen and (min-width: 320px) and (max-width: 450px) and (orientation: landscape) {
-	html {
-	  transform: rotate(-90deg);
-	  transform-origin: left top;
-	  width: 100vh;
-	  overflow-x: hidden;
-	  position: absolute;
-	  top: 100%;
-	  left: 0;
-	}
-  }**/
+
+html {
+
+transform: rotate(-90deg);
+
+transform-origin: left top;
+
+width: 100vh;
+
+overflow-x: hidden;
+
+position: absolute;
+
+top: 100%;
+
+left: 0;
+
+}
+
+}**/
 
 
-  @media screen and (max-width:727px) {
-
-	html {
-		transform: rotate(-90deg);
-		transform-origin: left top;
-		
-	overflow-x: hidden;
-		position: absolute;
-		top: 100%;
-		left: 0;}
-
-	#keyboard-container {
-		max-width: 100vw;
-		height: 360px;
-		background-color: black;
-		margin: 0 auto;
-		display: grid;
-		text-align: center;
-		grid-template-columns: repeat(12, 1fr);
-		border: 5px solid black;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-		box-sizing: border-box;
-	
-	}
-	
-	
-	.white-key {
-		width: 13vw;
-		background-color: white;
-		color: black;
-		position: relative;
-	}
-	
-	#e1,
-	#h1 {
-		border-right: 5px solid black;
-	}
-	
-	.white-key span {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-	
-	
-	/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
-	   for black keys position */
-	
-	.black-key {
-		width: 7vw;
-		background-color: black;
-		height: 195px;
-		--width: 45px;
-		margin-left: calc(var(--width) / -2);
-		margin-right: calc(var(--width) / -2);
-		z-index: 10;
-		color: white;
-		position: relative;
-	}
-	
-	.black-key span {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-  }
 
 
-  button {
-	
-	font-size: 2rem;
-	width: 500px;
+
+@media screen and (max-width:727px) {
 
 
-  }
+
+html {
+
+transform: rotate(-90deg);
+
+transform-origin: left top;
+
+
+
+overflow-x: hidden;
+
+position: absolute;
+
+top: 100%;
+
+left: 0;}
+
+
+
+#keyboard-container {
+
+max-width: 100vw;
+
+height: 360px;
+
+background-color: black;
+
+margin: 0 auto;
+
+display: grid;
+
+text-align: center;
+
+grid-template-columns: repeat(12, 1fr);
+
+border: 5px solid black;
+
+border-bottom-left-radius: 10px;
+
+border-bottom-right-radius: 10px;
+
+box-sizing: border-box;
+
+
+
+}
+
+
+
+
+
+.white-key {
+
+width: 13vw;
+
+background-color: white;
+
+color: black;
+
+position: relative;
+
+}
+
+
+
+#e1,
+
+#h1 {
+
+border-right: 5px solid black;
+
+}
+
+
+
+.white-key span {
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+
+right: 0;
+
+}
+
+
+
+
+
+/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
+
+for black keys position */
+
+
+
+.black-key {
+
+width: 7vw;
+
+background-color: black;
+
+height: 195px;
+
+--width: 45px;
+
+margin-left: calc(var(--width) / -2);
+
+margin-right: calc(var(--width) / -2);
+
+z-index: 10;
+
+color: white;
+
+position: relative;
+
+}
+
+
+
+.black-key span {
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+
+right: 0;
+
+}
+
+
+
+
+
+button {
+
+
+
+font-size: 2rem;
+
+width: 500px;
+
+
+
+
+
+}
+
+
+
 
 
 h1 {
-	font-size: 3rem;
+
+font-size: 3rem;
+
+
 
 }
+
+
 
 h2 {
-	font-size: 1.5rem;
+
+font-size: 1.5rem;
+
+
 
 }
+
+
 
 .social-networks i {
-	font-size: 1.5rem;
+
+font-size: 1.5rem;
+
 }
+
+
 
 #song-list li,
+
 #instructions li {
-	font-size: 1.5rem;
+
+font-size: 1.5rem;
+
 }
 
 
-  }
- /* @media screen and (max-width:950px) {
-  }
 
 
-  @media screen and (max-width:1366px) {
 
-  }*/
+}
+
+/* @media screen and (max-width:950px) {
+
+}
+
+
+
+
+
+@media screen and (max-width:1366px) {
+
+
+
+}*/
