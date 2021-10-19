@@ -316,10 +316,10 @@ footer {
 	width: 80%;
 	/* Could be more or less, depending on screen size */
 }
-
+/*
 /* media queries */
 /* Landscape */
-@media screen and (min-width: 320px) and (max-width: 450px) and (orientation: landscape) {
+/*@media screen and (min-width: 320px) and (max-width: 450px) and (orientation: landscape) {
 	html {
 	  transform: rotate(-90deg);
 	  transform-origin: left top;
@@ -329,4 +329,82 @@ footer {
 	  top: 100%;
 	  left: 0;
 	}
+  }**/
+
+
+  @media screen and (max-width:625px) {
+
+	html {
+		transform: rotate(-90deg);
+		transform-origin: left top;
+		width: 100vh;
+		overflow-x: hidden;
+		position: absolute;
+		top: 100%;
+		left: 0;}
+
+	#keyboard-container {
+		max-width: 50%;
+		height: 360px;
+		background-color: black;
+		margin: 0 auto;
+		display: grid;
+		text-align: center;
+		grid-template-columns: repeat(12, 1fr);
+		border: 5px solid black;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		box-sizing: border-box;
+	
+	}
+	
+	
+	.white-key {
+		width: 130px;
+		background-color: white;
+		color: black;
+		position: relative;
+	}
+	
+	#e1,
+	#h1 {
+		border-right: 5px solid black;
+	}
+	
+	.white-key span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	
+	/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
+	   for black keys position */
+	
+	.black-key {
+		width: 50px;
+		background-color: black;
+		height: 195px;
+		--width: 45px;
+		margin-left: calc(var(--width) / -2);
+		margin-right: calc(var(--width) / -2);
+		z-index: 10;
+		color: white;
+		position: relative;
+	}
+	
+	.black-key span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
   }
+  }
+ /* @media screen and (max-width:950px) {
+  }
+
+
+  @media screen and (max-width:1366px) {
+
+  }*/
