@@ -332,19 +332,19 @@ footer {
   }**/
 
 
-  @media screen and (max-width:625px) {
+  @media screen and (max-width:768px) {
 
 	html {
 		transform: rotate(-90deg);
 		transform-origin: left top;
 		width: 100vh;
-		overflow-x: hidden;
+	overflow-x: hidden;
 		position: absolute;
 		top: 100%;
 		left: 0;}
 
 	#keyboard-container {
-		max-width: 50%;
+		max-width: 90vw;
 		height: 360px;
 		background-color: black;
 		margin: 0 auto;
