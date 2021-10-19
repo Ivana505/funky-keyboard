@@ -25,12 +25,16 @@ blackKeys.forEach((key) => {
 	});
 });
 
+
 //function to activate note sounds 
 function activateSound(key) {
 	const soundAudio = document.getElementById(key.dataset.sound);
-	//soundAudio.currentTime = 0;
+	soundAudio.currentTime = 0;
 	stopSound();
 	soundAudio.play();
+	//key.classList.add('active');
+//	stopSound.addEventListener('ended', () => {
+	//key.classList.remove('active');
 }
 
 function stopSound() {
@@ -41,23 +45,103 @@ function stopSound() {
   });
 }
 
+//let maryHadLamb = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"];
+
+/*var maryHadLamb = new Audio(),
+    i = e1;
+var playlist = new Array("e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1");
+
+audio.addEventListener('ended', function () {
+    i = ++i < playlist.length ? i : 0;
+    console.log(i)
+    audio.src = playlist[i];
+    audio.play();
+}, true);
+audio.volume = 0.3;
+audio.loop = false;
+audio.src = playlist[0];
+audio.play();*/
+
+/*let pressed = '';
+document.querySelectorAll('id').forEach(item => {
+  item.addEventListener('click', event => {
+    pressed += item.id;
+    if( pressed == '"e1","e1","c1"' ) {
+      alert("Success");
+    } else {
+      console.log(pressed);
+    }
+  })
+})*/
+
+let playNote = (key) => {
+	const noteSound = document.getElementById(key.dataset.note);
+	noteSound.currentTime = 0;
+	noteSound.play();
+	key.classList.add('active');
+	noteSound.addEventListener('ended', () => {
+	  key.classList.remove('active');
+	});
+  };
+  
+
+
+
 
 /*
-const maryHadLamb = ["E","D","C","D","E","E","E","D","D","D","E","E","E","E","D","C","D","E","E","E","D","D","E","D","C"];
-for (let i = 0; i < maryHadLamb.length; i++) {
-    console.log(maryHadLamb[i]);
+function melody(x) {
+  y += x;
+  if (maryHadLamb == "e1" ||
+    y == "e1e1" ||
+    y == "e1e1c1" ||
+    y == "e1e1c1" ||
+    y == "e1e1c1" ||
+    y == "e1e1c1" ||
+    y == "e1e1c1"
+  ) {
+    if (y == "e1e1c1") {
+      alert("Success!");
+    }
+  } else y = "";
+}
+*/
+
+/*function playMaryHadLamb() {
+    let audio = document.getElementsByTagName('audio');
+    if (audio.assets/audio/mary-had-a-little-lamb.mp3 ("PLAY")) {
+        audio.src = "MARY_HAD_LAMB";
+		console.log(playMaryHadLamb);
+    } 
+        
 }*/
 
+/*
+document.addEventListener('click', e => {
+	const key = e.key
+	const maryHadLambIndex = MARY_HAD_LAMB.indexOf(key) 
+
+	if (maryHadLambIndex > -1) playNote(maryHadLamb[MARY_HAD_LAMB])
+})*/
+
+
+//const maryHadLamb = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"];
+//for (let i = 0; i < maryHadLamb.length; i++) {
+
+
+
+  //console.log(maryHadLamb[i]);
+//}
+
 
 /*
-const twinkleTwinkle = ["C","C","G","G","A","A","G","F","F","E","E","D","D","C","G","G","F","F","E","E","D","G","G","F","F","E",
-"E","D","C","C","G","G","A","A","G","F","F","E","E","D","D","C"];
+const twinkleTwinkle = ["c1","c1","g1","g1","a1","a1","g1","f1","f1","e1","e1","d1","d1","c1","g1","g1","f1","f1","e1","e1","d1","g1","g1","f1","f1","e1",
+"e1","d1","c1","c1","g1","g1","a1","a1","g1","f1","f1","e1","e1","d1","d1","c1"];
 for (let i = 0; i < twinkleTwinkle.length; i++) {
     console.log(twinkleTwinkle[i]);
 }
 
-const jingleBells = ["E","E","E","E","E","E","E","G","C","D","E","F","F","F",
-"F", "E","E","E","D","D","E","D","G","E","E","E","E","E","E","E","G","C","D","E","F","F","F","F","E","E","G","G","F","D","C"];
+const jingleBells = ["e1","e1","e1","e1","e1","e1","e12,"g1","c1","d1","e1","f1","f1","f1",
+"f1","e1","e1","e1","d1","d1","e1","d1","g1","e1","e1","e1","e1","e1","e1","e1","g1","c1","d1","e1","f1","f1","f1","f1","e1","e1","g1","g1","f1","d1","c1"];
 for (let i = 0; i < jingleBells.length; i++) {
     console.log(jingleBells[i]);
 }*/
