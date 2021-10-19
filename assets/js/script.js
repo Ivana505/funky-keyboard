@@ -35,7 +35,8 @@ function activateSound(key) {
 
 function stopSound() {
   const audioFiles = document.getElementsByTagName("audio");
-  audioFiles.forEach((audio) => {
+  const audios = Array.prototype.slice.call(audioFiles);
+   audios.forEach((audio) => {
 	  audio.pause();
   });
 }
