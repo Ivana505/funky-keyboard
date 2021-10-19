@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/* jshint esversion: 8 */
 
 //initial click white keys
 let whiteKeys = document.querySelectorAll(".white-key");

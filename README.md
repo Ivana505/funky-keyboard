@@ -1,26 +1,26 @@
 # Funky Keyboard
-Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.<br>
+Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.
 Users can find all the information on this Website about the Funky Keyboard: How to play, Choose your song and contact Information of the Author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/).
-![landing page](/assets/images/landing-page.png)
+![landing page](assets/images/landing-page.png)
 
 
 ## Features
 - How to play ? 
     - Includes instructions on how to play the keyboard.
     - Text is visible and easy to understand.
-![how to play](/assets/images/how-to-play.png)
+![how to play](assets/images/how-to-play.png)
 
 - Choose your song
      - User can choose a song from the list and click on the audio to hear it first.
      - Audio helps user to hear the beat and tempo of the song.
      - After the user clicks on "PLAY", the game starts and the first key of the song lights up on the keyboard which user needs to press. After the first key is pressed, another key will light up and user needs to press it next all up until the whole song is played.
-![choose your song](/assets/images/choose-a-song.png)
+![choose your song](assets/images/choose-a-song.png)
 
 - Created by with Social media links
      - User can get in touch with the authos of this Website.
      - User can find more Information about the author.
-![social media](/assets/images/social-media.png)
+![social media](assets/images/social-media.png)
 
 
 # User Experience
@@ -53,12 +53,12 @@ Font choices
 I have decided to use [Google Fonts](https://fonts.google.com/). 
  - Two font styles: Indie Flower for main headings and buttons and Lato for paragraphs.
  - These two font styles complement each other really well. Indie Flower is a handwriting font while Lato is part of a sans serif typeface family.
- - I have included example of the style below: <br>
+ - I have included example of the style below: 
 
  Indie Flower font-family
-    ![indie flower font family](/assets/images/indie-flower-font-family.png)
+    ![indie flower font family](assets/images/indie-flower-font-family.png)
  Lato font-family
-    ![lato font family](/assets/images/lato-font-family.png)
+    ![lato font family](assets/images/lato-font-family.png)
 
 Icons
 
@@ -73,31 +73,31 @@ I have decided to use:
  - Keyboards black and white.
  - Buttons and modal are styled with further colors and opacity of the black color.
 Note colors below : 
-![main colors](/assets/images/main-colors.png)
-![buttons and modal colors](/assets/images/buttons-and-modal-colors.png)
+![main colors](assets/images/main-colors.png)
+![buttons and modal colors](assets/images/buttons-and-modal-colors.png)
 
 ## Wireframes
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
 
 Landing page
-![landing page](/assets/wireframes/landing-page.png)<br>
+![landing page](assets/wireframes/landing-page.png)
 How to Play ?
-![how to play](/assets/wireframes/how-to-play.png)<br>
+![how to play](assets/wireframes/how-to-play.png)
 Choose a song
-![choose a song](/assets/wireframes/choose-a-song.png)
+![choose a song](assets/wireframes/choose-a-song.png)
 
 
 ## Testings
 
 ### Validator testing and browser compatibility
 - I have tested HTML5 code with - [HTML5 validator](https://validator.w3.org/), first testing showed errors.
-![validation1](/assets/images/html-validation1.png)
+![validation1](assets/images/html-validation1.png)
 ![validation2]
 ![validation3]
 - I have tested CSS3 code with  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found.
-![validation css](/assets/images/css-validation1.png)
+![validation css](assets/images/css-validation1.png)
 - I have tested JavaScript code with  - [JSHint validator](https://jshint.com/), first testing showed errors.
-![validation JavaScript](/assets/images/javascript-validation1.png)
+![validation JavaScript](assets/images/javascript-validation1.png)
 
 ### Browser compatibility
 - I can confirm that I have tested website on four different Web Browsers and that the page if compatible:
@@ -117,7 +117,7 @@ Contact us page [Brave]()
 Result for desktop 
  - Performance for the desktop version 
 
-![desktop](.png)<br>
+![desktop](.png)
 Result for mobile devices
 - Performance for mobile devices 
 
@@ -127,14 +127,14 @@ Result for mobile devices
 
 #### Solved
 - Audio did not play due to the incorrect path. Issue has been fixed.
-![audio bug](/assets/images/audio-bug.png)
+![audio bug](assets/images/audio-bug.png)
 
 
 #### Unsolved bugs
 During the regular check up of the Webpage I have noticed favicon.com error. 
-When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">)to head of html but it did not fix it.
-I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.<br>
-![unsolved bug](/assets/images/favicon-bug.png)
+When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (`<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">`)to head of html but it did not fix it.
+I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
+![unsolved bug](assets/images/favicon-bug.png)
 
 ## Deployment
 
