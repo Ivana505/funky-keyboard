@@ -283,25 +283,30 @@ footer {
 		
 	}
 	.white-key {
-		width:10.5vw;
+		width:10.1vw;
 	}
 
 .black-key {
-	width:7vw;
+	width:8vw;
 }
 button {
 	
-	font-size: 2rem;
-	width: 500px;
+	font-size: 1.5rem;
+	width: 300px;
 	
 }
 h1{
-	font-size:3rem;
+	font-size:2rem;
 }
 .white-key span, .black-key span{
 	font-size:1.5rem;
 }
+.social-networks i {
+	font-size: 1.5rem;
+	
 }
+}
+
 
 
 @media screen and (min-width:681px) and (max-width:859px) {
