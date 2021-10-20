@@ -78,7 +78,7 @@ p {
 }
 
 #keyboard-container {
-	max-width: 50%;
+	max-width: 65vw;
 	height: 360px;
 	background-color: black;
 	margin: 0 auto;
@@ -92,7 +92,7 @@ p {
 }
 
 .white-key {
-	width: 130px;
+	width: 8.99vw;
 	background-color: white;
 	color: black;
 	position: relative;
@@ -110,13 +110,10 @@ p {
 	right: 0;
 }
 
-
 /* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
-
 for black keys position */
-
 .black-key {
-	width: 50px;
+	width: 2.6vw;
 	background-color: black;
 	height: 195px;
 	--width: 45px;
