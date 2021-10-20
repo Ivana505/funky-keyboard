@@ -345,10 +345,139 @@ for black keys position */
 }
 
 
-/* @media screen and (max-width:950px) {
+@media screen and (max-width:1090px) {
 
+	#keyboard-container {
+		max-width: 80vw;
+		height: 250px;
+		background-color: black;
+		display: grid;
+		text-align: center;
+		grid-template-columns: repeat(12, 1fr);
+		border: 5px solid black;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		box-sizing: border-box;
+		
+	}
+	.white-key {
+		width:10.94vw;
+		background-color: white;
+		color: black;
+		position: relative;
+	}
+	#e1,
+	#h1 {
+		border-right: 5px solid black;
+	}
+	.white-key span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
+
+for black keys position */
+.black-key {
+	width:4.6vw;
+	background-color: black;
+	height: 122px;
+	--width: 45px;
+	margin-left: calc(var(--width) / -2);
+	margin-right: calc(var(--width) / -2);
+	z-index: 10;
+	color: white;
+	position: relative;
 }
+.black-key span {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+button {
+	font-size: 1.5rem;
+	width: 400px;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+.social-networks i {
+	font-size: 1.5rem;
+}
+#song-list li,
+#instructions li {
+	font-size: 1.5rem;
+}
+}
+@media screen and (max-width:1360px) {
 
-@media screen and (max-width:1366px) {
-}*/
+	#keyboard-container {
+		max-width: 85vw;
+		height: 250px;
+		background-color: black;
+		display: grid;
+		text-align: center;
+		grid-template-columns: repeat(12, 1fr);
+		border: 5px solid black;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		box-sizing: border-box;
+		
+	}
+	.white-key {
+		width:11.6vw;
+		background-color: white;
+		color: black;
+		position: relative;
+	}
+	#e1,
+	#h1 {
+		border-right: 5px solid black;
+	}
+	.white-key span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
 
+for black keys position */
+.black-key {
+	width:4.6vw;
+	background-color: black;
+	height: 122px;
+	--width: 45px;
+	margin-left: calc(var(--width) / -2);
+	margin-right: calc(var(--width) / -2);
+	z-index: 10;
+	color: white;
+	position: relative;
+}
+.black-key span {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+button {
+	font-size: 1.5rem;
+	width: 400px;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+.social-networks i {
+	font-size: 1.5rem;
+}
+#song-list li,
+#instructions li {
+	font-size: 1.5rem;
+}
+}
