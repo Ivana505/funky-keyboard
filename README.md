@@ -1,9 +1,9 @@
 # Funky Keyboard
 Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.
-Users can find all the information on this Website about the Funky Keyboard: How to play ?, Choose your song and contact Information of the page author.
+Users can find all the information on this Website about the Funky Keyboard: "How to play ?", "Choose your song" and contact Information of the author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 
-![responeive design](assets/images/responsive-design.png)
+![responsive design](assets/images/responsive-design.png)
 
 
 ## Features
@@ -19,16 +19,15 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 ![choose your song](assets/images/choose-a-song.png)
 
 - Created by
-     - User can get in touch with the author of this Website.
-     - User can find more Information about the author.
+     - Shows user author's name and surname.
 
-![social media](assets/images/social-media-icons.png)
+![created by](assets/images/created-by.png)
 
 - Social media links
      - User can get in touch with the author of this Website.
-     - User can find more Information about the author.
+     - User can find more Information about the author on Social Media links.
 
-![created by](assets/images/created-by.png)
+![social media](assets/images/social-media-icons.png)
 
 
 # User Experience
@@ -39,7 +38,7 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 
 The target audience are kids and parents who want to play the piano keyboard without previous knowledge and have fun:
 
-- To understand how the keyboards is played and to navigate through the site easily.
+- To understand how the keyboard is played and to navigate through the Website easily.
 - To learn how to play easy songs on the piano keyboard in a day.
 - To hear the songs first before starting to play.
 
@@ -48,8 +47,8 @@ The target audience are kids and parents who want to play the piano keyboard wit
 As a user I would like to:
 
 - Play at least 10 different songs.
-- hear songs before I start to play.
-- See metronome so I can set a speed and follow the beat while I play.
+- Hear the songs before I start to play.
+- See metronome so I can set up speed and follow the beat while I play.
 - Learn how to play the piano.
 - See lyrics of the songs.
 - Be able to record songs I played.
@@ -60,8 +59,8 @@ Font choices
 
 I have decided to use [Google Fonts](https://fonts.google.com/). 
  - Two font styles: Indie Flower for main headings and buttons and Lato for paragraphs.
- - These two font styles complement each other really well. Indie Flower is a handwriting font while Lato is part of a sans serif typeface family.
- - I have included example of the style below: 
+ - These two font styles complement each other very well. Indie Flower is a handwriting font while Lato is part of a sans serif typeface family.
+ - Example of the font type styles : 
 
  Indie Flower font-family
     ![indie flower font family](assets/images/indie-flower-font-family.png)
@@ -105,10 +104,23 @@ Choose a song
 
 ![validation1](assets/images/html-validation1.png)
 
+- Second HTML5 code validation - [HTML5 validator](https://validator.w3.org/).
+
+![validation1](assets/images/html-validation2.png)
+
+- Third HTML5 code validation - [HTML5 validator](https://validator.w3.org/), ok to leave the warning all other errors fixed.
+
+![validation1](assets/images/html-validation3.png)
+
 - I have tested CSS3 code with  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found.
 
 ![validation css](assets/images/css-validation1.png)
+
 - I have tested JavaScript code with  - [JSHint validator](https://jshint.com/), first testing showed errors.
+
+![validation JavaScript](assets/images/javascript-validation1.png)
+
+- Second testing with  - [JSHint validator](https://jshint.com/). Unused variable has been deleted and all errors have been fixed.
 
 ![validation JavaScript](assets/images/javascript-validation1.png)
 
@@ -117,13 +129,13 @@ Choose a song
 
 Landing page [Google Chrome](https://www.google.com/chrome/)
 ![landing page google chrome](assets/images/landing-page.png)
-Modal How to play ? [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
-![modal1](assets/images/modal1-moxilla.png)
-Modal Chioose your song[Brave](https://brave.com/)
+Modal "How to play ?" [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+![modal1](assets/images/modal1-mozilla.png)
+Modal "Choose your song" [Brave](https://brave.com/)
 ![modal2](assets/images/modal2-brave.png)
 
-- Accessibility 
-      - I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
+### Accessibility
+- I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
     
 Result for desktop 
  - Performance for the desktop version 
@@ -145,9 +157,11 @@ Result for mobile devices
 
 #### Unsolved bugs
 During the regular check up of the Webpage I have noticed favicon.com error. 
-When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (`<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">`)to head of html but it did not fix it.
-I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
+~~During the regular check up of the Webpage I have noticed favicon.com error. When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (`<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">`)to head of html but it did not fix it. I have also tried to follow reccommendations from Github Community here but nothing seem to fix this bug.~~
+Update: this is now working as intended.
+
 ![unsolved bug](assets/images/favicon-bug.png)
+
 
 ## Deployment
 
