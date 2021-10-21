@@ -102,12 +102,15 @@ Choose a song
 
 ### Validator testing and browser compatibility
 - I have tested HTML5 code with - [HTML5 validator](https://validator.w3.org/), first testing showed errors.
+
 ![validation1](assets/images/html-validation1.png)
 ![validation2]
 ![validation3]
 - I have tested CSS3 code with  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found.
+
 ![validation css](assets/images/css-validation1.png)
 - I have tested JavaScript code with  - [JSHint validator](https://jshint.com/), first testing showed errors.
+
 ![validation JavaScript](assets/images/javascript-validation1.png)
 
 ### Browser compatibility
@@ -138,6 +141,7 @@ Result for mobile devices
 
 #### Solved
 - Audio did not play due to the incorrect path. Issue has been fixed.
+
 ![audio bug](assets/images/audio-bug.png)
 
 
