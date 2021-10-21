@@ -85,7 +85,7 @@ Note colors below :
 
 ## Audio Used
 
- - I have recorder audio on [Apronus.com Website](https://www.apronus.com/music/flashpiano.htm) which gives option to record your own songs played.
+ - I have recorded audio on [Apronus.com Website](https://www.apronus.com/music/flashpiano.htm) which gives option to record your own songs played.
 
 ## Wireframes
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
@@ -115,26 +115,23 @@ Choose a song
 ### Browser compatibility
 - I can confirm that I have tested website on four different Web Browsers and that the page if compatible:
 
-Landing page [Google Chrome]()
-![landing page google chrome]()
-Instructors page [MS Edge]()
-![instructors page ms edge]()
-Gallery page [Mozzilla Firefox]()
-![gallery page mozilla firefox]()
-Contact us page [Brave]()
-![contact us page Brave]()
+Landing page [Google Chrome](https://www.google.com/chrome/)
+![landing page google chrome](assets/images/landing-page.png)
+Modal How to play ? [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+![modal1](assets/images/modal1-moxilla.png)
+Modal Chioose your song[Brave](https://brave.com/)
+![modal2](assets/images/modal2-brave.png)
 
 - Accessibility 
       - I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
     
 Result for desktop 
  - Performance for the desktop version 
+![desktop](assets/images/lighthouse-desktop.png)
 
-![desktop](.png)
 Result for mobile devices
 - Performance for mobile devices 
-
-![mobile](.png)
+![mobile](assets/images/lighthouse-mobile.png)
 
 ### Bugs
 
@@ -218,5 +215,6 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
 
 ### Content
  - Content was created intentionally for the purpose of this project and this Website. Credits go to the creater of the Website.
+
 
 
