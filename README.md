@@ -194,7 +194,7 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [Coolors](https://coolors.co/)
   - [Fontawesome](https://fontawesome.com/) for Social Links icons.
   - [TinyPNG](https://tinypng.com/)
-  - [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp) Helped me with creating modal box.
+  - [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp) helped me with creating modal box.
   - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
   - [Stack Overflow](https://stackoverflow.com/questions/50229293/get-id-of-clicked-element-vanilla-js) to get ID of clicked element in JavaScript.
   - [Favicon](https://www.favicon.cc/)
@@ -202,12 +202,12 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [Google fonts](https://fonts.google.com/)
   - [Yoksel.Github](https://yoksel.github.io/grid-cheatsheet/)
   - [CSS tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  - [Code pen](https://codepen.io/Fibonaccifreak/pen/VwbQNNJ) Helped me align black keys evenly.
+  - [Code pen](https://codepen.io/Fibonaccifreak/pen/VwbQNNJ) helped me to align black keys evenly.
   - [Code pen Js piano](https://codepen.io/Fibonaccifreak/pen/VwbQNNJ)
-  - [Web development guide](https://www.thewebdeveloperguide.com/javascript-get-data-attribute/#:~:text=Using%20Javascript%20Get%20to%20a%20Data%20Attribute%20using,its%20id%20using%20the%20Javascript%20document.getElementById%20function.%20) Get Data Attribute.
-  - [Getcssscan](https://getcssscan.com/css-buttons-examples) for button style.
-  - [HTML and CSS freeformatter](https://www.freeformatter.com/html-formatter.html)
-  - [Code beautify for Javascript](https://codebeautify.org/jsviewer)
+  - [Web development guide](https://www.thewebdeveloperguide.com/javascript-get-data-attribute/#:~:text=Using%20Javascript%20Get%20to%20a%20Data%20Attribute%20using,its%20id%20using%20the%20Javascript%20document.getElementById%20function.%20) get Data Attribute Information.
+  - [Getcssscan](https://getcssscan.com/css-buttons-examples) used for button styling.
+  - [HTML and CSS freeformatter](https://www.freeformatter.com/html-formatter.html) to beautify the code.
+  - [Code beautify for Javascript](https://codebeautify.org/jsviewer) to beautify JavaScript code.
   - [Am I reponsive](http://ami.responsivedesign.is/) To show responsiveness of the Website.
   - [Audio recorded](https://www.apronus.com/music/flashpiano.htm)
 

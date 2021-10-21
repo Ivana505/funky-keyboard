@@ -110,8 +110,10 @@ p {
 	right: 0;
 }
 
+
 /* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
 for black keys position */
+
 .black-key {
 	width: 2.6vw;
 	background-color: black;
@@ -131,9 +133,11 @@ for black keys position */
 	right: 0;
 }
 
-.white-key span, .black-key span{
-	font-size:1.5rem;
+.white-key span,
+.black-key span {
+	font-size: 1.5rem;
 }
+
 .social-networks {
 	text-align: center;
 	list-style-type: none;
@@ -266,108 +270,88 @@ footer {
 	/* Could be more or less, depending on screen size */
 }
 
-
 @media screen and (min-width:300px) and (max-width:680px) {
-
 	html {
-	transform: rotate(-90deg);
-	transform-origin: left top;
-	overflow-x: hidden;
-	position: absolute;
-	top: 100%;
-	left: 0;
-}
-
+		transform: rotate(-90deg);
+		transform-origin: left top;
+		overflow-x: hidden;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	}
 	#keyboard-container {
 		max-width: 80vw;
-		
 	}
 	.white-key {
-		width:10.1vw;
+		width: 10.1vw;
 	}
-
-.black-key {
-	width:8vw;
+	.black-key {
+		width: 8vw;
+	}
+	button {
+		font-size: 1.5rem;
+		width: 300px;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	.white-key span,
+	.black-key span {
+		font-size: 1.5rem;
+	}
+	.social-networks i {
+		font-size: 1.5rem;
+	}
 }
-button {
-	
-	font-size: 1.5rem;
-	width: 300px;
-	
-}
-h1{
-	font-size:2rem;
-}
-.white-key span, .black-key span{
-	font-size:1.5rem;
-}
-.social-networks i {
-	font-size: 1.5rem;
-	
-}
-}
-
-
 
 @media screen and (min-width:681px) and (max-width:859px) {
-
 	#keyboard-container {
 		max-width: 70vw;
-		
 	}
 	.white-key {
-		width:9.25vw;
+		width: 9.25vw;
 	}
-
-.black-key {
-	width:6vw;
+	.black-key {
+		width: 6vw;
+	}
+	button {
+		font-size: 2rem;
+		width: 600px;
+	}
+	.white-key span,
+	.black-key span {
+		font-size: 1.5rem;
+	}
 }
-button {
-	
-	font-size: 2rem;
-	width: 600px;
-	
-}
-.white-key span, .black-key span{
-	font-size:1.5rem;
-}
-}
-
 
 @media screen and (min-width:860px) and (max-width:1090px) {
-
 	#keyboard-container {
 		max-width: 68vw;
-		
 	}
 	.white-key {
-		width:9.0vw;
+		width: 9.0vw;
 	}
-
-.black-key {
-	width:4.5vw;
+	.black-key {
+		width: 4.5vw;
+	}
+	.white-key span,
+	.black-key span {
+		font-size: 1.5rem;
+	}
 }
-.white-key span, .black-key span{
-	font-size:1.5rem;
-}
-}
-
 
 @media screen and (min-width:1091px) and (max-width:1360px) {
-
 	#keyboard-container {
 		max-width: 65vw;
-		
 	}
 	.white-key {
-		width:8.78vw;
+		width: 8.78vw;
 	}
-
-.black-key {
-	width:3.8vw;
-}
-.white-key span, .black-key span{
-	font-size:1.5rem;
-}
-
+	.black-key {
+		width: 3.8vw;
+	}
+	.white-key span,
+	.black-key span {
+		font-size: 1.5rem;
+	}
 }
