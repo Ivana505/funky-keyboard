@@ -45,22 +45,43 @@ function stopSound() {
   });
 }
 
-//let maryHadLamb = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"];
+let maryHadLamb = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"];
+
+function firstSong(start = 0, end = Infinity, step = 1) {
+    let maryHadLamb = start;
+    let iterationCount = 0;
+
+    const rangeIterator = {
+       next: function(firstSong) {
+           let result;
+           if (nextIndex < end) {
+               result = { value: nextIndex, done: false }
+               nextIndex += step;
+               iterationCount++;
+               return result;
+           }
+           return { value: iterationCount, done: true }
+       }
+    };
+    return rangeIterator;
+}
+
+
+/*song1=true;
+strictButton.addEventListener('click', (event) => {
+	if (stricButton.checked == true) {
+		strict=true;
+	}	else {
+			strict=false;
+		}
+})*/
+
 
 /*var maryHadLamb = new Audio(),
     i = e1;
 var playlist = new Array("e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1");
 
-audio.addEventListener('ended', function () {
-    i = ++i < playlist.length ? i : 0;
-    console.log(i)
-    audio.src = playlist[i];
-    audio.play();
-}, true);
-audio.volume = 0.3;
-audio.loop = false;
-audio.src = playlist[0];
-audio.play();*/
+
 
 /*let pressed = '';
 document.querySelectorAll('id').forEach(item => {
@@ -84,9 +105,6 @@ let playNote = (key) => {
 	});
   };
   
-
-
-
 
 /*
 function melody(x) {
