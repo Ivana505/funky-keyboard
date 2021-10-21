@@ -1,8 +1,9 @@
 # Funky Keyboard
 Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.
-Users can find all the information on this Website about the Funky Keyboard: How to play, Choose your song and contact Information of the Author.
+Users can find all the information on this Website about the Funky Keyboard: How to play ?, Choose your song and contact Information of the page author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/).
-![landing page](assets/images/landing-page.png)
+
+![responeive design](assets/images/responsive-design.png)
 
 
 ## Features
@@ -17,11 +18,17 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
      - After the user clicks on "PLAY", the game starts and the first key of the song lights up on the keyboard which user needs to press. After the first key is pressed, another key will light up and user needs to press it next all up until the whole song is played.
 ![choose your song](assets/images/choose-a-song.png)
 
-- Created by with Social media links
+- Created by
      - User can get in touch with the author of this Website.
      - User can find more Information about the author.
 
-![social media](assets/images/social-media.png)
+![social media](assets/images/social-media-icons.png)
+
+- Social media links
+     - User can get in touch with the author of this Website.
+     - User can find more Information about the author.
+
+![created by](assets/images/created-by.png)
 
 
 # User Experience
@@ -30,7 +37,7 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 
 ### Visitor goals
 
-The target audience are kids and parents who want to play piano keyboard without previous knowledge and have fun:
+The target audience are kids and parents who want to play the piano keyboard without previous knowledge and have fun:
 
 - To understand how the keyboards is played and to navigate through the site easily.
 - To learn how to play easy songs on the piano keyboard in a day.
@@ -38,14 +45,14 @@ The target audience are kids and parents who want to play piano keyboard without
 
 ### User Goals
 
-As a user I would like:
+As a user I would like to:
 
-- I would like to play at least 10 different songs.
-- I would like to hear songs before I start to play.
-- I would like to see metronome so I can set a speed and follow the beat while I play.
-- I would like to learn how to play the piano.
-- I would like to see lyrics of the songs.
-- I would like to be able to record songs I played.
+- Play at least 10 different songs.
+- hear songs before I start to play.
+- See metronome so I can set a speed and follow the beat while I play.
+- Learn how to play the piano.
+- See lyrics of the songs.
+- Be able to record songs I played.
 
 ## Design Choices
 
@@ -68,14 +75,17 @@ Icons
 
 ## Color scheme and styling
 
-I have decided to use:
- - Main combination of 3 colors: pink, black and white.
+ - I have decided to use 4 color combination scheme for the page: pink, red, black and white.
  - Background color of the page is pink. Black color is used for headings and black and white combination for the piano keyboard.
- - Keyboards black and white.
+ - Red is used as a notification that the key has been pressed.
  - Buttons and modal are styled with further colors and opacity of the black color.
 Note colors below : 
-![main colors](assets/images/main-colors.png)
+![main colors](assets/images/main-color-scheme.png)
 ![buttons and modal colors](assets/images/buttons-and-modal-colors.png)
+
+## Audio Used
+
+ - I have recorder audio on [Apronus.com Website](https://www.apronus.com/music/flashpiano.htm) which gives option to record your own songs played.
 
 ## Wireframes
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
@@ -198,6 +208,8 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [Getcssscan](https://getcssscan.com/css-buttons-examples) for button style.
   - [HTML and CSS freeformatter](https://www.freeformatter.com/html-formatter.html)
   - [Code beautify for Javascript](https://codebeautify.org/jsviewer)
+  - [Am I reponsive](http://ami.responsivedesign.is/) To show responsiveness of the Website.
+  - [Audio recorded](https://www.apronus.com/music/flashpiano.htm)
 
   I want to say thank you to my Mentor Tim for the guidance and tutor support.
 
