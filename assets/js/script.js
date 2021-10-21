@@ -44,7 +44,7 @@ function stopSound() {
 	  audio.pause();
   });
 }
-
+/*
 let maryHadLamb = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"];
 
 function firstSong(start = 0, end = Infinity, step = 1) {
