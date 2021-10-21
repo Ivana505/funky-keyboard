@@ -199,6 +199,7 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp) helped me with creating modal box.
   - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
   - [Stack Overflow](https://stackoverflow.com/questions/50229293/get-id-of-clicked-element-vanilla-js) to get ID of clicked element in JavaScript.
+  - [Stack Overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) to add animation to heading 1.
   - [Favicon](https://www.favicon.cc/)
   - [Balsamiq](https://balsamiq.com/)
   - [Google fonts](https://fonts.google.com/)
@@ -210,8 +211,8 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [Getcssscan](https://getcssscan.com/css-buttons-examples) used for button styling.
   - [HTML and CSS freeformatter](https://www.freeformatter.com/html-formatter.html) to beautify the code.
   - [Code beautify for Javascript](https://codebeautify.org/jsviewer) to beautify JavaScript code.
-  - [Am I reponsive](http://ami.responsivedesign.is/) To show responsiveness of the Website.
-  - [Audio recorded](https://www.apronus.com/music/flashpiano.htm)
+  - [Am I reponsive](http://ami.responsivedesign.is/) to show responsiveness of the Website.
+  - [Codepen](https://codepen.io/tag/piano)
 
   I want to say thank you to my Mentor Tim for the guidance and tutor support.
 

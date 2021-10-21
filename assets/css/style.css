@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato&display=swap');
+
+/* Sets all elements to  0 margin, 0 padding and no border */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,15 +12,36 @@ body {
 	background-color: pink;
 }
 
+p {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
 h1,
 h2 {
 	font-family: 'Indie Flower', cursive;
 	text-align: center;
 }
 
+
+/* Adds animation to heading, credit to https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+
 h1 {
 	font-size: 5rem;
 	padding-bottom: 10px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
 }
 
 h2 {
@@ -26,7 +50,7 @@ h2 {
 }
 
 
-/* CSS button */
+/* CSS button style credit to https://getcssscan.com/css-buttons-examples*/
 
 button {
 	font-family: 'Indie Flower', cursive;
@@ -55,13 +79,6 @@ button {
 	touch-action: manipulation;
 }
 
-ul {
-	margin: 1% 0 2% 0;
-	padding-bottom: 0;
-	text-align: center;
-	list-style: none;
-}
-
 button:hover {
 	background-color: white;
 	box-shadow: black 0 -6px 8px inset;
@@ -72,10 +89,18 @@ button:active {
 	transform: scale(1.025);
 }
 
-p {
-	font-family: 'Lato', sans-serif;
+
+/* Code to keep the list in the center of the page */
+
+ul {
+	margin: 1% 0 2% 0;
+	padding-bottom: 0;
 	text-align: center;
+	list-style: none;
 }
+
+
+/* Grid container which holds the piano keyboard */
 
 #keyboard-container {
 	max-width: 65vw;
@@ -91,16 +116,14 @@ p {
 	box-sizing: border-box;
 }
 
+
+/* White keys style and size */
+
 .white-key {
 	width: 8.99vw;
 	background-color: white;
 	color: black;
 	position: relative;
-}
-
-#e1,
-#h1 {
-	border-right: 5px solid black;
 }
 
 .white-key span {
@@ -111,8 +134,15 @@ p {
 }
 
 
-/* credits to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for --width, margin-left and margin-right 
-for black keys position */
+/* Adds border between the empty keys */
+
+#e1,
+#h1 {
+	border-right: 5px solid black;
+}
+
+
+/* Credit to https://codepen.io/Fibonaccifreak/pen/VwbQNNJ for the black keys position, black key size and style */
 
 .black-key {
 	width: 2.6vw;
@@ -138,10 +168,16 @@ for black keys position */
 	font-size: 1.5rem;
 }
 
+
+/* Social media style */
+
 .social-networks {
 	text-align: center;
 	list-style-type: none;
 }
+
+
+/* Positions social media icons next to each other */
 
 .social-networks>li {
 	display: inline;
@@ -164,44 +200,58 @@ footer {
 }
 
 
-/* The Modal (background) */
+/* Style for modal1 (background), credit to https://www.w3schools.com/howto/howto_css_modals.asp */
 
 .modal1 {
 	display: none;
-	/* Hidden by default */
 	position: fixed;
-	/* Stay in place */
 	z-index: 11 !important;
-	/* Sit on top */
 	left: 0;
 	top: 0;
 	width: 100%;
-	/* Full width */
 	height: 100%;
-	/* Full height */
 	overflow: auto;
-	/* Enable scroll if needed */
 	background-color: rgb(0, 0, 0);
-	/* Fallback color */
 	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
 }
-
-
-/* Modal Content/Box */
 
 .modal-content {
 	background-color: pink;
 	margin: 15% auto;
-	/* 15% from the top and centered */
 	padding: 20px;
 	border: 1px solid #888;
 	width: 80%;
-	/* Could be more or less, depending on screen size */
 }
 
 
-/* The Close Button */
+/* Style for modal2 (background), credit to https://www.w3schools.com/howto/howto_css_modals.asp */
+
+.modal2 {
+	display: none;
+	position: fixed;
+	z-index: 11 !important;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Modal2 style for the content */
+
+.modal-content2 {
+	background-color: pink;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+
+/* The close button style */
 
 .close {
 	color: #aaa;
@@ -217,6 +267,9 @@ footer {
 	cursor: pointer;
 }
 
+
+/* Song list and instructions to position them in the center of the modal box */
+
 #song-list li,
 #instructions li {
 	font-family: 'Lato', sans-serif;
@@ -228,6 +281,7 @@ footer {
 }
 
 
+/* Title style to keep it ine the center */
 
 .title {
 	font-family: 'Lato', sans-serif;
@@ -238,41 +292,7 @@ footer {
 }
 
 
-/* The Modal 2 (background) */
-
-.modal2 {
-	display: none;
-	/* Hidden by default */
-	position: fixed;
-	/* Stay in place */
-	z-index: 11 !important;
-	/* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%;
-	/* Full width */
-	height: 100%;
-	/* Full height */
-	overflow: auto;
-	/* Enable scroll if needed */
-	background-color: rgb(0, 0, 0);
-	/* Fallback color */
-	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
-}
-
-
-/* Modal Content/Box */
-
-.modal-content2 {
-	background-color: pink;
-	margin: 15% auto;
-	/* 15% from the top and centered */
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
-	/* Could be more or less, depending on screen size */
-}
+/* Media query for small screen sizes */
 
 @media screen and (min-width:300px) and (max-width:680px) {
 	html {
@@ -308,6 +328,9 @@ footer {
 	}
 }
 
+
+/* Media query for medium screen sizes */
+
 @media screen and (min-width:681px) and (max-width:859px) {
 	#keyboard-container {
 		max-width: 70vw;
@@ -328,6 +351,9 @@ footer {
 	}
 }
 
+
+/* Media query for medium to larger screen sizes */
+
 @media screen and (min-width:860px) and (max-width:1090px) {
 	#keyboard-container {
 		max-width: 68vw;
@@ -343,6 +369,9 @@ footer {
 		font-size: 1.5rem;
 	}
 }
+
+
+/* Media query for large screen sizes */
 
 @media screen and (min-width:1091px) and (max-width:1360px) {
 	#keyboard-container {
