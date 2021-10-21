@@ -42,17 +42,6 @@ function stopSound() {
 	});
 }
 
-// Deactivates active note when the next key is pressed
-let playNote = (key) => {
-	const noteSound = document.getElementById(key.dataset.note);
-	noteSound.currentTime = 0;
-	noteSound.play();
-	key.classList.add('active');
-	noteSound.addEventListener('ended', () => {
-		key.classList.remove('active');
-	});
-};
-
 // Modal code credit to https://www.w3schools.com/howto/howto_css_modals.asp
 // Get the modal
 var modal = document.getElementById("howToPlayModal");
