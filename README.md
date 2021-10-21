@@ -15,7 +15,7 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 - Choose your song
      - User can choose a song from the list and click on the audio to hear it first.
      - Audio helps user to hear the beat and tempo of the song.
-     - After the user clicks on "PLAY", the game starts and the first key of the song lights up on the keyboard which user needs to press. After the first key is pressed, another key will light up and user needs to press it next all up until the whole song is played.
+     - User can try and memorise as much keys as possible and try to play the song.
 ![choose your song](assets/images/choose-a-song.png)
 
 - Created by
@@ -127,10 +127,12 @@ Modal Chioose your song[Brave](https://brave.com/)
     
 Result for desktop 
  - Performance for the desktop version 
+
 ![desktop](assets/images/lighthouse-desktop.png)
 
 Result for mobile devices
 - Performance for mobile devices 
+
 ![mobile](assets/images/lighthouse-mobile.png)
 
 ### Bugs
