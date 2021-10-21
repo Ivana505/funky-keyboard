@@ -31,9 +31,6 @@ function activateSound(key) {
 	soundAudio.currentTime = 0;
 	stopSound();
 	soundAudio.play();
-	//key.classList.add('active');
-//	stopSound.addEventListener('ended', () => {
-	//key.classList.remove('active');
 }
 
 function stopSound() {
@@ -55,16 +52,21 @@ let playNote = (key) => {
   };
 
 
-let songOne = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"]
+/*let songOne = ["e1","e1","c1","d1","e1","e1","e1","d1","d1","d1","e1","e1","e1","e1","d1","c1","d1","e1","e1","e1","d1","d1","e1","d1","c1"]
 for (let i = 0; i < songOne.length; i++) {
     console.log(songOne[i]);
-}
-function songOne1 () {
+}*/
+/*
+function chosenSong {
+
+}*/
+
+/*function songOne1 () {
 	const songSound = document.getElementById("song1");
 	soundAudio.currentTime = 0;
 	songOne();
 	soundAudio.play();
-}
+}*/
 
 
 /*
