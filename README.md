@@ -104,8 +104,7 @@ Choose a song
 - I have tested HTML5 code with - [HTML5 validator](https://validator.w3.org/), first testing showed errors.
 
 ![validation1](assets/images/html-validation1.png)
-![validation2]
-![validation3]
+
 - I have tested CSS3 code with  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found.
 
 ![validation css](assets/images/css-validation1.png)
