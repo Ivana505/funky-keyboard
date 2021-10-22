@@ -227,7 +227,7 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   I want to say thank you to my Mentor Tim for the guidance and tutor support.
 
 ### Content
- - Content was created intentionally for the purpose of this project and this Website. Credits go to the creater of the Website.
+ - Content was created intentionally for the purpose of this project and this Website. Credits go to the creator of the Website.
 
 
 
