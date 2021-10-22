@@ -1,6 +1,6 @@
 # Funky Keyboard
 Funky Keyboard is a website for anyone who wants to learn how to play simple piano songs on the piano keyboard. No previous knowledge is required.
-Users can find all the information on this Website about the Funky Keyboard: "How to play ?", "Choose your song" and contact Information of the author.
+Users can find all the Information on this Website about the Funky Keyboard: "How to play ?", "Choose your song" and contact Information of the author.
 You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 
 ![responsive design](assets/images/responsive-design.png)
@@ -19,7 +19,7 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 ![choose your song](assets/images/choose-a-song.png)
 
 - Created by
-     - Shows user author's name and surname.
+     - Shows the user author's name and surname.
 
 ![created by](assets/images/created-by.png)
 
@@ -104,11 +104,11 @@ Choose a song
 
 ![validation1](assets/images/html-validation1.png)
 
-- Second HTML5 code validation - [HTML5 validator](https://validator.w3.org/).
+- Second HTML5 code validation showed error and a warning.
 
 ![validation1](assets/images/html-validation2.png)
 
-- Third HTML5 code validation - [HTML5 validator](https://validator.w3.org/), ok to leave the warning all other errors fixed.
+- Third HTML5 code validation showed warning only, ok to leave the warning all other errors fixed.
 
 ![validation1](assets/images/html-validation3.png)
 
@@ -120,9 +120,9 @@ Choose a song
 
 ![validation JavaScript](assets/images/javascript-validation1.png)
 
-- Second testing with  - [JSHint validator](https://jshint.com/). Unused variable has been deleted and all errors have been fixed.
+- Second testing. Unused variable has been deleted and all errors have been fixed.
 
-![validation JavaScript](assets/images/javascript-validation1.png)
+![validation JavaScript](assets/images/javascript-validation2.png)
 
 ### Browser compatibility
 - I can confirm that I have tested website on four different Web Browsers and that the page if compatible:
@@ -189,7 +189,6 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [Github](https://github.com/)
 - [Git](https://git-scm.com/)
-- [TinyPNG](https://tinypng.com/)
 
 
 ## Credits and Acknowledgements
