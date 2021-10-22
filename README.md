@@ -136,6 +136,7 @@ Modal "Choose your song" [Brave](https://brave.com/)
 
 ### Accessibility
 - I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
+- Also, color contrast between pink and black color showed good at 13.65.
     
 Result for desktop 
  - Performance for the desktop version 
