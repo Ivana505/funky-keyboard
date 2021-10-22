@@ -23,7 +23,7 @@ You can access the website [here](https://ivana505.github.io/funky-keyboard/).
 
 ![created by](assets/images/created-by.png)
 
-- Social media links
+- Social Media links
      - User can get in touch with the author of this Website.
      - User can find more Information about the author on Social Media links.
 
@@ -70,7 +70,7 @@ I have decided to use [Google Fonts](https://fonts.google.com/).
 Icons
 
 - Social Media Icons [Github](https://www.github.com/) and [LinkedIn](https://ie.linkedin.com) are centered and added to the bottom of the page where user will be able to find further Information about me. 
-- [Fontawesome](https://fontawesome.com/) was used to add social media icons and smiley face in the "How to play ?" section.
+- [Fontawesome](https://fontawesome.com/) was used to add Social Media icons and smiley face in the "How to play ?" section.
 
 ## Color scheme and styling
 
@@ -156,7 +156,6 @@ Result for mobile devices
 
 
 #### Unsolved bugs
-During the regular check up of the Webpage I have noticed favicon.com error. 
 ~~During the regular check up of the Webpage I have noticed favicon.com error. When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (`<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">`)to head of html but it did not fix it. I have also tried to follow reccommendations from Github Community here but nothing seem to fix this bug.~~
 Update: this is now working as intended.
 
