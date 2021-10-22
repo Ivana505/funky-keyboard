@@ -193,9 +193,6 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
 
 ## Credits and Acknowledgements
 
-- Image source:
- - [Pixabay](https://pixabay.com/vectors/music-note-music-note-musical-notes-1967480/)
-
 - Audio source:
  - [nemo0 Github](https://github.com/nemo0/js-piano) sounds for the keys.
  - [Apronus](https://www.apronus.com/music/flashpiano.htm)
